@@ -53,6 +53,7 @@ Attested consonants, based on the assumption that names are supposed to be prono
 
 p - /p/  
 b - /b/  
+t - /t/  
 d - /d/  
 k/c - /k/
 
@@ -75,9 +76,11 @@ y - /j/
 m - /m/  
 n - /n/
 
-The lack of /g/ is not typologically odd on its own, but the lack of isolated /t/ (assuming that ⟨ts⟩ is, in fact, an affricate, which seems reasonable given the existence of ⟨ch⟩ and the lack of other /Cs/ clusters in onset positions) in the presence of /p/ and /d/ is a bizarre gap. On that basis, and because there seems to be a fairly robust voicing distinction in the affricates, we can infer that there should also be /t/ and /g/ phonemes, even though they happen to be missing from this dataset. Additionally, we ought to fill in unattested \*/ʒ/, \*/d͡z/, and \*/d͡ʒ/, on the basis that, having decided that voicing was usefully distinctive for all other obstruents, the in-world engineers of Baseline wouldn't have just left those specific place/manner combinations unused!
+We interpret ⟨ts⟩ as an affricate on the basis that there are no other word-initial apparent clusters, and that the affricate ⟨ch⟩ is unambiguously attested (so the category of affricates clearly exists in Baseline's inventory).
 
-Now, let us consider the case of ⟨tsi-imbi⟩ a little more closely; it's the only attested word with a hyphen in it, and the only word with consecutive identical vowels if you ignore the hyphen. In fact, no attested words have consecutive vowels at all! I infer that this is to maximize the ease of syllable segmentation, and that the hyphen should in fact represent an additional marginal glottal stop (/ʔ/) phoneme (such as shows up in the English "uh-oh"), which shows up wherever vowels would otherwise be in hiatus. That also allows to resolve any possible ambiguity in the usage of ⟨ah⟩ to transcribe the low-back vowel. Something like ⟨bahob⟩ (a minimal change from the attested ⟨Bohob⟩) would have to be read as /bæ.hob/, while /baob/ would be phonetically [ba.ʔ.ob], with extra-metrical /ʔ/, and transcribed as ⟨bah-ob⟩--and /ba.hob/ would be ⟨bahhob⟩. The hyphen can also be used in Anglicization to break disambiguate Ch digraphs from C.h sequences across syllable boundaries; e.g., /a.θa/ would be written ⟨atha⟩, /aθ.ha/ would be written ⟨athha⟩, and /at.ha/ would be written ⟨at-ha⟩.
+The lack of /g/ is not typologically odd on its own, but given the fairly robust fairly robust voicing distinction for most plosives and fricatives, we can infer that there should also be \*/g/, \*/ʒ/, \*/d͡z/, and \*/d͡ʒ, phonemes, even though they happen to be missing from this dataset, on the basis that, having decided that voicing was usefully distinctive for all other obstruents, the in-world engineers of Baseline wouldn't have just left those specific place/manner combinations unused!
+
+Now, let us consider the case of ⟨tsi-imbi⟩ a little more closely. It's the only attested word with a hyphen in it, and the only word with consecutive identical vowels if you ignore the hyphen. In fact, no attested words have consecutive vowels at all! I infer that this is to maximize the ease of syllable segmentation, and that the hyphen should in fact represent an additional marginal glottal stop (/ʔ/) phoneme (such as shows up in the English "uh-oh"), which shows up wherever vowels would otherwise be in hiatus. That also allows to resolve any possible ambiguity in the usage of ⟨ah⟩ to transcribe the low-back vowel. Something like ⟨bahob⟩ (a minimal change from the attested ⟨Bohob⟩) would have to be read as /bæ.hob/, while /baob/ would be phonetically [ba.ʔ.ob], with extra-metrical /ʔ/, and transcribed as ⟨bah-ob⟩--and /ba.hob/ would be ⟨bahhob⟩. The hyphen can also be used in Anglicization to break disambiguate Ch digraphs from C.h sequences across syllable boundaries; e.g., /a.θa/ would be written ⟨atha⟩, /aθ.ha/ would be written ⟨athha⟩, and /at.ha/ would be written ⟨at-ha⟩.
 
 This lack of vowel length or hiatrus vowels raises another potential problem with the transcription of other consonants; while we have examples of single intervocalic ⟨l⟩ and ⟨r⟩, there are also a few instance of doubled ⟨ll⟩ and ⟨rr⟩--but no other doubled consonants. And if we aren't allowing doubled vowels, having geminate continuant consonants across syllable boundaries seems like a very weird choice, completely counter to the goal of making syllabic segmentation easy and unambiguous. One could imagine heterosyllabic /l.ʔ.l/ and /r.ʔ.r/ sequences, with epenthetic glottal stops separating syllables just like they do between vowels, but in the absence of written hyphens in the attested names, I am going to assume that the doubled letters are there purely for purposes of Anglophone aesthetics, and that cross-syllable geminates do not actually exist in Baseline.
 
@@ -91,7 +94,6 @@ That leads to the following consonants chart:
 | Fricative   | f ⟨f⟩ v ⟨v⟩ | θ ⟨th⟩ ð ⟨dh⟩ | s ⟨s⟩ z ⟨z⟩     | ʃ ⟨sh⟩ ʒ ⟨zh⟩  |             | h ⟨h⟩   |
 | Affricate   |             |               | t͡s ⟨ts⟩ d͡z ⟨dz⟩ | t͡ʃ ⟨ch⟩ d͡ʒ ⟨j⟩ |             |         |
 | Approximant |             |               |                 | j ⟨y⟩          | L ⟨l⟩       |         |
-|-------------|-------------|---------------|-----------------|----------------|-------------|---------|
 
 The Anglicization is slightly complicated by transcribing /k/ as ⟨c⟩ instead of ⟨k⟩ when it precedes ⟨o⟩, and /j/ and ⟨i⟩ instead of ⟨y⟩ when it is between two vowels.
 
