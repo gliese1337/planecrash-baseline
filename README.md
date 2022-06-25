@@ -1,4 +1,4 @@
-This is documentation for the Baseline language of dath ilan, the alternate-history Earth created Eliezer Yudkowski, as inferred from the evidence in the [Planecrash stories on glowfic.com](https://www.glowfic.com/boards/215).
+This is documentation for the Baseline language of dath ilan, the alternate-history Earth created Eliezer Yudkowsky, as inferred from the evidence in the [Planecrash stories on glowfic.com](https://www.glowfic.com/boards/215).
 
 * GRAMMAR.md is the main grammatical description, in the form of a reference grammar.
 * WORDFORMS.md is a list of valid but unused wordforms that can be assigned meanings to fill in the Baseline lexicon. There 12,000 possible monosyllables, but, depending on how the morphology works out, it is possible that not all of those may be available for assignment to unique lexical items.
