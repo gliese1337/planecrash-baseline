@@ -138,8 +138,42 @@ raht ral ran rez rin run
 sal  
 sheth shorm  
 thal tham the thin thor  
-tsi  
-ya  
-yals yar ver vor
+tsi 
+ver vor 
+ya yals yar 
 
-The possible syllables are a much larger set, totally 12,000. However, depending on morphological rules, not all of these will necessarily be available for assignment to unique lexical items.
+The possible syllables are a much larger set, totalling 12,000. However, depending on morphological rules, not all of these will necessarily be available for assignment to unique lexical items.
+
+Numerals
+--------
+
+Baseline digits (atomic cardinal numerals) are all single closed syllables beginning with one of seven voiceless consonants: 
+⟨p⟩ ⟨sh⟩ ⟨t⟩ ⟨f⟩ ⟨k⟩ ⟨ch⟩ ⟨s⟩.
+
+No two digits form a minimal pair; that is, all digits differ by at least two phonemes, which is accomplished by varying codas. Additionally, numerically-adjacent digits have onsets which differ in both place and manner of articulation
+
+There are 21 digits constructed from 3 cycles of the seven onset consonants, paired with 7 cycles of the 3 cardinal vowels: ⟨i⟩ ⟨ah⟩ ⟨u⟩. Each cycle of onsets has a distinct coda, from a set of voiced consonants chosen for ease of clear articulation in hiatus with any numeral onset, and avoiding ⟨r⟩ for morphological reasons: ⟨n⟩ ⟨dh⟩ ⟨l⟩
+
+| Value | Numeral | Value | Numeral | Value | Numeral |
+|-------|---------|-------|---------|-------|---------|
+| 0     | ⟨pin⟩   | 7     | ⟨pahdh⟩ | 14    | ⟨pul⟩   |
+| 1     | ⟨shahn⟩ | 8     | ⟨shudh⟩ | 15    | ⟨shil⟩  |
+| 2     | ⟨tun⟩   | 9     | ⟨tidh⟩  | 16    | ⟨tahl⟩  |
+| 3     | ⟨fin⟩   | 10    | ⟨fahdh⟩ | 17    | ⟨ful⟩   |
+| 4     | ⟨kahn⟩  | 11    | ⟨kudh⟩  | 18    | ⟨kil⟩   |
+| 5     | ⟨chun⟩  | 12    | ⟨chidh⟩ | 19    | ⟨chahl⟩ |
+| 6     | ⟨sin⟩   | 13    | ⟨sahdh⟩ | 20    | ⟨sul⟩   |
+
+Sequences of consecutive digits form compound numerals which are interpreted as big-endian place-value representations of a number. By default, digit strings are interpreted in base 12, and no digit larger than 11 ⟨kur⟩ may occur in such a number. Note that any isolated digit may be used to represent its inherent value in any context; thus, while it is possible to represent, e.g., 15 as a base-12 digit string ⟨shahnfin⟩, it would be more typical to simply say ⟨shil⟩. When a single digit occurs more than twice in a row in a digit string, the onset consonant of alternating digits, starting with the second occurrence, is voiced, to assist with keeping track of digit positions. Thus, 26388 ("13330" in base 12) would be represented as ⟨shahnfinvinfinpin⟩, not \*⟨shahnfinvinfinpin⟩. This is a much more frequent occurrence when expressing numbers in smaller bases. This voicing alternation is not a waste of phonetic material as the alternate forms never appear as independent words, and so do not produce a homophone conflict with any actual independent words. Avoiding a lexical segmentation conflict just requires that those syllables not be assigned as independent words to anything which is grammatically countable.
+
+Non-integer quantities are expressed by using the infix operator ⟨pok⟩, representing a radix point, to separate the whole-number part from the fractional part of a complex numeral. Thus, 2.5 is ⟨tunpoksin⟩. Leading zeroes can be omitted; thus, 0.25 is ⟨pokfin⟩, or ⟨pinpokfin⟩.
+
+Ordinal digits are formed with an infix ⟨-r-⟩. Thus, "first" is ⟨shahrn⟩, "twelveth" is ⟨chirdh⟩, "twentieth" is ⟨surl⟩, etc. Compound ordinal numerals use ordinal digits througout. Thus, "one-hundred-fourty-fourth" is ⟨chirdhchirdh⟩, not \*⟨chidhchirdh⟩ or \*⟨chirdhchidh⟩. This ensures that there is no ambiguity about boundaries when different numeral classes may appear in hiatus. This occurs, for example, in the expression of rational numbers, which are formed by using a cardinal numerator to quantify over an ordinal denominator, much like English. Thus, "seven eighths" is ⟨pahv shurdh⟩, and "thirty-seven one-hundred-fourty-fourths" is ⟨fintun chirvchirdh⟩.
+
+While 12 is the default base, in certain contexts digit strings may be interpreted in any other base less than 21. The simplest example of this is the use of the ⟨pirnz⟩ construction. A digit with the ⟨pirn-⟩ prefix and ⟨-z⟩ suffix may be preposed to any syntactic scope to alter the interpretation of digit strings within that scope. For example, placing ⟨pirnsulz⟩ immediately before a digit string will cause that digit string (and any embedded digit strings within a noun phrase over which that digit string quantifies) to be interpreted in base-20. Thus, ⟨kudhpin⟩ is 132, but ⟨pirnsulz kudhpin⟩ is 240. Another common construction uses the prefix ⟨tu-⟩ with ordinal derivation (using infix ⟨-r-⟩) to produce specialized base indicator which further specify that a single numeral should be interpreted in the given base, but then divided by the square of that base. Thus, ⟨tufahrdh⟩ translates the English "percent", while ⟨tuchirdh⟩ means "interpret in base 12, then divide by 144"--a base-12 equivalent of "percent". "Thirty-seven one-hundred-fourty-fourths" may thus be altenately expressed as ⟨tuchirdh fintun⟩, while "52 percent" may be expressed as ⟨tufahrdh chuntun⟩.
+
+Digits and digit strings can also be used in a larger construction which avoids the need to state an explicit base. An ordinal digit string compounded to a cardinal digit string with the suffiz ⟨-z⟩ expresses exponentiation ("read as CAR to the ORD power times..."), and may be followed by a unit multiplier (an integer, rational, or radix-point numeral) interpreted in the base of the exponentiated cardinal digit. Note that the ⟨pirnz⟩ construction described above is an extension of this pattern--it can be literally read as "X to the 0th power times...", which is otherwise functionally vacuous, as it would literally entail nothing more than multiplying by 1.
+
+Multiple exponent constructions in sequence have their values summed. This allows easy expression of large quantities whose digit-string representations may have lots of zeroes; e.g, "one million two hundred" may be expressed as ⟨sirnfahdhz shahn turnfahdhz tun⟩ (6 syllables), rather than ⟨pirnfahdhz shahnpinbinpintunpinpin⟩ (base 10, 9 syllables) or ⟨kahnpintuntidhfahdhpin⟩ (base 12, 6 syllables).
+
+Note that there is no requirement that the bases of different terms in an exponential expression must be the same! However, switching radices with multiplier terms larger than 20 (thus, requiring digit string representation) is usually unnecessarily cognitively-taxing.
