@@ -13,10 +13,19 @@ The majority of canonical evidence for Baseline phonology comes from names:
     Derrin     Elshorm    Elzbeth
     Helorm     Illeia     Karal
     Keltham    Limyar     Merrin
-    Miyalsvor  Nemamel    Ranthal
-    Salthin    Thellim    Verrez
+    Miyalsvor  Nemamel    Petheriel
+    Ranthal    Salthin    Thellim
+    Verrez
 
-Most names have two syllables; a few (4 in this list) have 3, or maybe 4. "Bahb" is the only one-syllable names, but that is likely not representative of any real name used for a dath ilani person, as it appears in a context where it is clearly meant to be transcription of the English name "Bob", as part of the set "Alis, Bahb, and Karal", standing in for "Alice, Bob, and Carol", the standard placeholder names for participants in a cryptographic protocol. "Bohob" seems to be an alternative adaptation of "Bob" that fits Baseline naming patterns better. In combination with "Bahdhi", though, the orthographic possibility of "Bahb" suggests the existence of ⟨a⟩ and ⟨ah⟩ as separate vowels. If ⟨h⟩ can only occur in onset positions, there would be minimal ambiguity introduced in the Anglicization by adopting that convention. ⟨Illeia⟩ could be a four-syllable name, but we have a negative example in that ⟨Athpechya⟩ is presented as a dath ilani equivalent for a non-Baseline 4-syllable name, which has been cut down to 3 syllables (assuming ⟨y⟩ is to be interpreted as a consonant). This anomaly can be resolved if we interpret that intervocalic ⟨i⟩ as a transcriptional variant of ⟨y⟩, much like ⟨c⟩ is a transcriptional variant of ⟨k⟩, rather than as a whole extra syllable.
+Most names have two syllables; a few (5 in this list) have 3, or maybe 4. "Bahb" is the only one-syllable names, but that is likely not representative of any real name used for a dath ilani person, as it appears in a context where it is clearly meant to be transcription of the English name "Bob", as part of the set "Alis, Bahb, and Karal", standing in for "Alice, Bob, and Carol", the standard placeholder names for participants in a cryptographic protocol. "Bohob" seems to be an alternative adaptation of "Bob" that fits Baseline naming patterns better. In combination with "Bahdhi", though, the orthographic possibility of "Bahb" suggests the existence of ⟨a⟩ and ⟨ah⟩ as separate vowels. If ⟨h⟩ can only occur in onset positions, there would be minimal ambiguity introduced in the Anglicization by adopting that convention.
+
+⟨Illeia⟩ could be a four-syllable name, and ⟨Petheriel⟩ almost certainly is if it is meant to be pronounced in the "obvious" way, but we have a negative example in that ⟨Athpechya⟩ is presented as a dath ilani equivalent for a non-Baseline 4-syllable name, which has been cut down to 3 syllables (assuming ⟨y⟩ is to be interpreted as a consonant).
+
+Our primary informant, Keltham, [at one point says](https://glowfic.com/replies/1625693#reply-1625693)
+
+> Two syllables is long enough that you'd be moderately unlikely to be good friends with two people with the same name, so it's what most normies like my parents use in the modern generation.  I've considered changing mine to something four-syllabled just to be Chaotic about it, but common wisdom says I should let my personality finish shaking out up to age 25 first.
+
+Which suggests that 4-syllable names are *possible*, but rare--probably over-represented by having the single unambiguous example of ⟨Petheriel⟩ in this small sample. If we don't want to end up with *two* such names in every 22, ⟨Illeia⟩ can be resolved to a 3-syllables name if we interpret that intervocalic ⟨i⟩ as a transcriptional variant of ⟨y⟩, much like ⟨c⟩ is a transcriptional variant of ⟨k⟩, rather than as a whole extra syllable.
 
 As a cultural note, all dath ilani are mononymic, so there is nothing to be said about the structure of family names / patronymics.
 
@@ -134,7 +143,7 @@ lan le lim lis lorm
 ma me mel mi  
 ne nen  
 pech  
-raht ral ran rez rin run  
+raht ral ran rez ri rin run  
 sal  
 sheth shorm  
 thal tham the thin thor  
@@ -143,6 +152,49 @@ ver vor
 ya yals yar 
 
 The possible syllables are a much larger set, totalling 12,000. However, depending on morphological rules, not all of these will necessarily be available for assignment to unique lexical items.
+
+Personal & Demonstrative Pronouns
+--------
+
+All personal pronouns are invariant for all grammatical functions.
+
+The first person singular pronoun is ⟨mi⟩.
+
+The second person singular pronoun is ⟨ti⟩. The plural is ⟨vi⟩.
+
+For third person, Baseline uses a single series of personal and demonstrative pronouns. These use a common rime of ⟨-em⟩ for singular and ⟨-erm⟩ for plural, with onset consonants varying to agree alliteratively with the onset of the antecedent. There are twelve total agreement forms, as follows:
+
+|  Form  | Agr. Classes |
+|--------|--------------|
+| ⟨pem⟩  |    p-, b-    |
+| ⟨tem⟩  |  t-, d-, r-  | 
+| ⟨kem⟩  |    k-, g-    |
+| ⟨hem⟩  |    V-, h-    |
+| ⟨nem⟩  |    m-, n-    | 
+| ⟨vem⟩  |    f-, v-    |
+| ⟨dhem⟩ |    θ-, ð-    |
+| ⟨zem⟩  |    s-, z-    |
+| ⟨zhem⟩ |    ʃ-, ʒ-    |
+| ⟨tsem⟩ |   t͡s-, d͡z-   |
+| ⟨chem⟩ |   t͡ʃ-, d͡ʒ-   |
+| ⟨yem⟩  |    j-, l-    |
+
+These forms are always endophoric; that is, that refer to some other phrase in the ongoing discourse. When used in the determiner slot of an argument phrase, the noun complement serves to further restrict what the whole determiner phrase may be referring to, giving greater specificity than the pronoun on its own. Alternately, this can be interpreted as the determiner restricting the noun to co-refer to something else in the discourse.
+
+The prefix ⟨e-⟩ derives *exophoric* demonstratives--pronouns which rever to something in the world external to the discourse, and bring that entity into the discourse. If used with a noun, the demonstrative will always agree with the head of the noun phrase; when used in isolation, however, an exophoric demonstrative may not have any formal linguistic expression to agree with (since the thing it refers to is by definition not yet part of the discourse); for example, when asking "What is that?" In such cases, ⟨eyem⟩ serves as the default, generic demonstrative.
+
+Baseline does not distinguish distal vs. proximal demonstratives.
+
+First person plurals are formed by compounding the first person singular with second and third person pronouns, forming the following set of 8 pronouns:
+
+* ⟨miti⟩ - me and you, the two of us.
+* ⟨mivi⟩ - me and all of you
+* ⟨miyem⟩ - me and him/her/it, but not you
+* ⟨miyerm⟩ - me and them, but not you.
+* ⟨mitem⟩ - the two of us and he/she/it
+* ⟨miterm⟩ - the two of us and them.
+* ⟨mivem⟩ - me, all of you, and he/she/it
+* ⟨miverm⟩ - me, all of you, and them.
 
 Numerals
 --------
