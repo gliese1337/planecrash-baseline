@@ -1,10 +1,10 @@
 Ethnography
------------
+===========
 
 Dath ilan is an alternate-history Earth envisioned by Eliezer Yudkowsky, whose history diverges at least a couple thousand years ago from our own, and in which civilization has achieved a much higher degree of global economic coordination. Part of this increased coordination is that everyone on dath ilan speaks, at minimum, an in-universe conlang called "Baseline". Out-of-universe, Baseline did not actually exist prior to Eliezer writing stories featuring Baseline-speaking dath ilanis--but descriptions of what it is like do exist in those stories, which can be used, to the extent that they are consistent, to infer a language consistent with the stories. 
 
 Phonology
----------
+=========
 
 The majority of canonical evidence for Baseline phonology comes from names:
 
@@ -127,7 +127,10 @@ The fricatives are a little bit weird; why include θ/ð alone in their column, 
 
 For the plosives, maximizing distinctiveness suggests that all of the voiceless plosives should also be secondarily aspirated--we've only got two plosive series, so we might as well make them as phonetically distinctive as possible!
 
-We can also infer the following apparent phonotactic rules:
+Phonotactics & Syllable Structure
+---------------------------------
+
+Extrapolating from the canonical and pre-canonical evidence, we can infer the following apparent phonotactic rules:
 
 Syllables have the form (C1)V((r|l|s|z)C2(s|z)), where:
 * C1 is any consonant.
@@ -145,9 +148,34 @@ Within a word:
 
 Making codas more complex than onsets is just weird, and there does not seem to be any clear in-world justification, but that seems to be where the available data is pointing. Maybe it is meant to allows sub-syllable-level suffixing/infixing morphology? The possibility of coda clusters with initial /l/ and /s/ is suggested only by pre-canonical data, but aside from the general weirdness of complex codas without complex onsets, it is not contradicted by any canonical data, so I have chosen to accept that pre-canonical data on the basis that it obeys the [sonority sequencing principle](https://en.wikipedia.org/wiki/Sonority_Sequencing_Principle) and helps to expand the total number of possible monosyllables.
 
+Allophony
+---------
+
+Special attention must be paid to how pairs of phonemes are realized across morpheme and word boundaries, which interfaces allow pairing which cannot occur within a single syllable or across syllables within a root.
+
+Vowel-initial roots and affixes may trigger resyllabification based on the maximum-onset principle when they occur after consonants in the same morphological word. Across word boundaries, a glottal stop is inserted to occupy the onset consonant position. When vowel-initial words occur after voiceless codas, this glottal stop merges with the preceding consonant to produce a phonetic ejective. This process is entirely predictable from the positions of word boundaries, indicated with a space in both the Baseline orthography and the romanization. Vowel-initial morphemes do not occur in the "basic" vocabulary, for which is it guaranteed that any sequence of phonemes have a unique interpretation, and thus resyllabification cannot be allowed.
+
+Sonorant consonants (⟨r⟩, ⟨y⟩, ⟨l⟩) trigger the insertion of an extra-syllabic glottal stop when they occur doubled, just like hiatus vowels do. This represented in the romanization with a hyphen ⟨-⟩, to make it clear that there are two separate consonants rather than a single onset consonant written doubled for aesthetic reasons, except in the case of /aj.j/ sequences, which are written as ⟨aiy⟩.
+
+Pairs of homorganic fricatives similarly trigger insertion of an epenthetic glottal stop, which is realized as ejectivization when the first fricative is voiceless.
+
+Voiced stops (including nasals and plosives) are simply geminated when they are doubled across a morpheme boundary. E.g., /d.d/ -> [d:]
+
+Voiced plosives followed by homorganic voiceless plosives are pronounced as a half-voiced geminate stop with aspirated release. E.g., /d.t/ -> [d͡tʰ]
+
+Pairs of voiceless plosives are always pronounced separately with a distinct aspirated release. E.g., /t.t/ -> [tʰtʰ]
+
+Similarly, pairs of affricates are always pronounced in sequence with distinct fricative releases, rather than geminated. Plosives followed by homorganic affricates are realized with geminate stops, with the stop portion taking the voicing of the original plosive and the fricated release taking the voicing of the original affricate.
+
+Prosody
+-------
+
 Based on characters' commenting on how many syllables are required to say something in various languages, and treating syllable count as a reliable measure of how long an utterance is / how much effort it takes to express something, we can infer that the language is syllable-timed, rather than stress- or mora-timed.
 
-Making another default assumption that the maximum onset principle for syllabification applies, the attested syllables are as follows:
+Possible Syllables
+------------------
+
+Making the default assumption that the maximum onset principle for syllabification applies, the attested syllables are as follows:
 
 a ath  
 i im  
@@ -172,8 +200,16 @@ ya yals yar
 
 The possible syllables are a much larger set, totalling 18,450. However, depending on morphological rules, not all of these will necessarily be available for assignment to unique lexical items.
 
+Syntax
+======
+
+Basic Clauses
+-------------
+
+Baseline's basic unmarked word order is SXV(O) (where X stands for a finite auxiliary). Correspondingly, the language is primarily head-initial. However, additional nonfinite V(O) units acting as components of a serial verb construction or as adverbial adjuncts (two different Earth-centric analyses of the same actual phonomenon) may occur in any order, with actual order of appearance dictated by quantifier scoping relations and pragmatic information structure concerns. 
+
 Personal & Demonstrative Pronouns
---------
+=================================
 
 All personal pronouns are invariant for all grammatical functions.
 
@@ -216,7 +252,7 @@ First person plurals are formed by compounding the first person singular with se
 * ⟨miverm⟩ - me, all of you, and them.
 
 Numerals
---------
+========
 
 Baseline digits (atomic cardinal numerals) are all single closed syllables beginning with one of seven voiceless consonants: 
 ⟨p⟩ ⟨sh⟩ ⟨t⟩ ⟨f⟩ ⟨k⟩ ⟨ch⟩ ⟨s⟩.
