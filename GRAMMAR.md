@@ -6,16 +6,16 @@ Dath ilan is an alternate-history Earth envisioned by Eliezer Yudkowsky, whose h
 Phonology
 =========
 
-The majority of canonical evidence for Baseline phonology comes from names:
+The majority of canonical evidence for Baseline phonology comes from personal names:
 
-    Alis       Athpechya  Bahb
-    Bahdhi     Bohob      Corun
-    Derrin     Elshorm    Elzbeth
-    Helorm     Illeia     Karal
-    Keltham    Limyar     Merrin
-    Miyalsvor  Nemamel    Petheriel
-    Ranthal    Salthin    Thellim
-    Verrez
+    Alis       Ashre    Athpechya  Avarris
+    Bahb       Bahdhi   Bohob      Corun
+    Derrin     Elshorm  Elzbeth    Helorm
+    Illeia     Irris    Karal      Keltham
+    Khemeth    Lethan   Limyar     Merrin
+    Miyalsvor  Nemamel  Petheriel  Ranthal
+    Salthin    Thellim  Verrez     Villar
+    Yattel
 
 Most names have two syllables; a few (5 in this list) have 3, or maybe 4. "Bahb" is the only one-syllable names, but that is likely not representative of any real name used for a dath ilani person, as it appears in a context where it is clearly meant to be transcription of the English name "Bob", as part of the set "Alis, Bahb, and Karal", standing in for "Alice, Bob, and Carol", the standard placeholder names for participants in a cryptographic protocol. "Bohob" seems to be an alternative adaptation of "Bob" that fits Baseline naming patterns better. In combination with "Bahdhi", though, the orthographic possibility of "Bahb" suggests the existence of ⟨a⟩ and ⟨ah⟩ as separate vowels. If ⟨h⟩ can only occur in onset positions, there would be minimal ambiguity introduced in the Anglicization by adopting that convention.
 
@@ -28,6 +28,8 @@ Our primary informant, Keltham, [at one point says](https://glowfic.com/replies/
 Which suggests that 4-syllable names are *possible*, but rare--probably over-represented by having the single unambiguous example of ⟨Petheriel⟩ in this small sample. If we don't want to end up with *two* such names in every 22, ⟨Illeia⟩ can be resolved to a 3-syllables name if we interpret that intervocalic ⟨i⟩ as a transcriptional variant of ⟨y⟩, much like ⟨c⟩ is a transcriptional variant of ⟨k⟩, rather than as a whole extra syllable.
 
 As a cultural note, all dath ilani are mononymic, so there is nothing to be said about the structure of family names / patronymics.
+
+We also have the non-personal proper nouns "Harkanam" (name of a city), "Sparashki" (name of a fictional alien species; could be intentionally-foreign), and "Thi" (inferred to be the name of a letter).
 
 The following non-personal-name words are also attested:
 
@@ -70,8 +72,7 @@ with three degrees of height, a binary front-back distinction, and rounding in t
 
 It would be more in-line with designing for maximal distinctiveness if the ⟨e⟩ vowel were a little higher, to maximize contrast with /æ/, but we have an explicit negative example where [the dath ilani Merrin struggles to pronounce the French names "Félix" and "Élie"](https://www.glowfic.com/replies/1786094#reply-1786094), which confirms that the Baseline ⟨e⟩ vowel is *not* /e/.
 
-Note, however, that in the attested data ⟨r⟩ only occurs after ⟨e⟩, ⟨a⟩, or ⟨o⟩. In English phonology, "r" and a few other consonants trigger vowel neutralization in cod positions, resulting in a smaller vowel inventory in the environment of those codas. The lack of ⟨ir⟩ or ⟨ahr⟩
-sequences in the data suggest that we can construct a reduced 3-vowel triangular system in the pre-⟨r⟩ environment, neutralizing ⟨i⟩ and ⟨e⟩ to a mid-close front vowel romanized as ⟨e⟩, a low-mid vowel romanized as ⟨a⟩, and a mid-close back vowel romanized as ⟨o⟩. This will prove numerologically useful for constructing numeric digits later, although it may be contradicted by future data.
+Note, however, that in the attested data coda-⟨r⟩ only occurs after ⟨e⟩, ⟨a⟩, or ⟨o⟩. (As described below in the discussion on geminates, ⟨Irris⟩, which has a surface ⟨ir⟩ sequence, is plausibly syllabified as /i.ris/, with an onset-⟨r⟩ rather than coda-⟨r⟩.) In English phonology, "r" and a few other consonants trigger vowel neutralization in coda positions, resulting in a smaller vowel inventory in the environment of those codas. The lack of tautosyllabic ⟨ir⟩ or ⟨ahr⟩ sequences in the data suggest that we can construct a reduced 3-vowel triangular system in the pre-⟨r⟩ environment, neutralizing ⟨i⟩ and ⟨e⟩ to a mid-close front vowel romanized as ⟨e⟩, a low-mid vowel romanized as ⟨a⟩, and a mid-close back vowel romanized as ⟨o⟩. This will prove numerologically useful for constructing numeric digits later, although it may be contradicted by future data.
 
 Given that /j/ never occurs as an unambiguous coda in the canonical or pre-canonical data, we are also free to extend the vowel neutralization environment to pre-/j/ positions as well, which will also serve to assist in proper pronunciation by Anglophone readers. The strangeness of English long vowels, however, requires a special case in the romanization to suggest the proper Anglicized pronunciation--namely, that /aj/ be transcribed as ⟨ai⟩, rather than ⟨ay⟩, as the latter would be mispronounced as /ej/.
 
@@ -89,7 +90,8 @@ s - /s/
 z - /z/  
 th - /θ/  
 dh - /ð/  
-sh - /ʃ/  
+sh - /ʃ/
+kh - /x/  
 h - /h/
 
 ts - /t͡s/  
@@ -104,28 +106,29 @@ n - /n/
 
 We interpret ⟨ts⟩ as an affricate on the basis that there are no other word-initial apparent clusters, and that the affricate ⟨ch⟩ is unambiguously attested (so the category of affricates clearly exists in Baseline's inventory).
 
-The lack of /g/ is not typologically odd on its own, but given the fairly robust fairly robust voicing distinction for most plosives and fricatives, we can infer that there should also be \*/g/, \*/ʒ/, \*/d͡z/, and \*/d͡ʒ, phonemes, even though they happen to be missing from this dataset, on the basis that, having decided that voicing was usefully distinctive for all other obstruents, the in-world engineers of Baseline wouldn't have just left those specific place/manner combinations unused!
+The lack of /g/ is not typologically odd on its own, but given the fairly robust fairly robust voicing distinction for most plosives and fricatives, we can infer that there should also be \*/g/, \*/ɣ/, \*/ʒ/, \*/d͡z/, and \*/d͡ʒ/, phonemes, even though they happen to be missing from this dataset, on the basis that, having decided that voicing was usefully distinctive for all other obstruents, the in-world engineers of Baseline wouldn't have just left those specific place/manner combinations unused!
 
 Now, let us consider the case of ⟨tsi-imbi⟩ a little more closely. It's the only attested word with a hyphen in it, and the only word with consecutive identical vowels if you ignore the hyphen. In fact, no attested words have consecutive vowels at all! I infer that this is to maximize the ease of syllable segmentation, and that the hyphen should in fact represent an additional marginal glottal stop (/ʔ/) phoneme (such as shows up in the English "uh-oh"), which shows up wherever vowels would otherwise be in hiatus. That also allows to resolve any possible ambiguity in the usage of ⟨ah⟩ to transcribe the low-back vowel. Something like ⟨bahob⟩ (a minimal change from the attested ⟨Bohob⟩) would have to be read as /bæ.hob/, while /baob/ would be phonetically [ba.ʔ.ob], with extra-metrical /ʔ/, and transcribed as ⟨bah-ob⟩--and /ba.hob/ would be ⟨bahhob⟩. The hyphen can also be used in Anglicization to break disambiguate Ch digraphs from C.h sequences across syllable boundaries; e.g., /a.θa/ would be written ⟨atha⟩, /aθ.ha/ would be written ⟨athha⟩, and /at.ha/ would be written ⟨at-ha⟩.
 
-This lack of vowel length or hiatus vowels raises another potential problem with the transcription of other consonants; while we have examples of single intervocalic ⟨l⟩ and ⟨r⟩, there are also a few instance of doubled ⟨ll⟩ and ⟨rr⟩--but no other doubled consonants. And if we aren't allowing doubled vowels, having geminate continuant consonants across syllable boundaries seems like a very weird choice, completely counter to the goal of making syllabic segmentation easy and unambiguous. One could imagine heterosyllabic /l.ʔ.l/ and /r.ʔ.r/ sequences, with epenthetic glottal stops separating syllables just like they do between vowels, but in the absence of written hyphens in the attested names, I am going to assume that the doubled letters are there purely for purposes of Anglophone aesthetics, and that cross-syllable geminates do not exist in Baseline roots. (Eliminating them across morpheme boundaries is a more difficult problem, so we will not dismiss that possibility yet.)
+This lack of vowel length or hiatus vowels raises another potential problem with the transcription of other consonants; while we have examples of single intervocalic ⟨l⟩ and ⟨r⟩, there are also a few instance of doubled ⟨ll⟩ and ⟨rr⟩, and a doubled ⟨tt⟩ in ⟨Yattel⟩. And if we aren't allowing doubled vowels, having geminate consonants across syllable boundaries seems like a very weird choice, completely counter to the goal of making syllabic segmentation easy and unambiguous. One could imagine heterosyllabic /l.ʔ.l/ and /r.ʔ.r/ sequences, with epenthetic glottal stops separating syllables just like they do between vowels, but in the absence of written hyphens in the attested names, I am going to assume that the doubled letters are there purely for purposes of Anglophone aesthetics, and that cross-syllable geminates do not exist in Baseline roots. In the cases of ⟨Irris⟩ and ⟨Yattel⟩, for example, the doubled consonants can be easily interpreted as an Anglicization convention to block the pronunciations /aj.rɪs/ (for "Iris")
+and /jej.tɛl/ (for "Yatel") in favor of /i.ris/ and /jæ.tɛl/, respectively. (Eliminating geminates across morpheme boundaries is a more difficult problem, so we will not dismiss that possibility yet.)
 
 That leads to the following consonants chart:
 
 |             | Labial      | Dental        | Alveolar        | Palatal        | Velar       | Glottal |
 |-------------|-------------|---------------|-----------------|----------------|-------------|---------|
-| Plosive     | p ⟨p⟩ b ⟨b⟩ |               | t ⟨t⟩ d ⟨d⟩     |                | k ⟨k⟩ g ⟨g⟩ | (ʔ) ⟨-⟩ |
-| Nasal       | m ⟨m⟩       |               | n ⟨n⟩           |                |             |         |
-| Trill       |             |               | r ⟨r⟩           |                |             |         |
-| Fricative   | f ⟨f⟩ v ⟨v⟩ | θ ⟨th⟩ ð ⟨dh⟩ | s ⟨s⟩ z ⟨z⟩     | ʃ ⟨sh⟩ ʒ ⟨zh⟩  |             | h ⟨h⟩   |
-| Affricate   |             |               | t͡s ⟨ts⟩ d͡z ⟨dz⟩ | t͡ʃ ⟨ch⟩ d͡ʒ ⟨j⟩ |             |         |
-| Approximant |             |               |                 | j ⟨y⟩          | L ⟨l⟩       |         |
+| Plosive     | p ⟨p⟩ b ⟨b⟩ |               | t ⟨t⟩ d ⟨d⟩     |                |  k ⟨k⟩ g ⟨g⟩  | (ʔ) ⟨-⟩ |
+| Nasal       | m ⟨m⟩       |               | n ⟨n⟩           |                |               |         |
+| Trill       |             |               | r ⟨r⟩           |                |               |         |
+| Fricative   | f ⟨f⟩ v ⟨v⟩ | θ ⟨th⟩ ð ⟨dh⟩ | s ⟨s⟩ z ⟨z⟩     | ʃ ⟨sh⟩ ʒ ⟨zh⟩  | x ⟨kh⟩ ɣ ⟨gh⟩ | h ⟨h⟩   |
+| Affricate   |             |               | t͡s ⟨ts⟩ d͡z ⟨dz⟩ | t͡ʃ ⟨ch⟩ d͡ʒ ⟨j⟩ |               |         |
+| Approximant |             |               |                 | j ⟨y⟩          | L ⟨l⟩         |         |
 
 The Anglicization is slightly complicated by transcribing /k/ as ⟨c⟩ instead of ⟨k⟩ when it precedes ⟨o⟩, and /j/ and ⟨i⟩ instead of ⟨y⟩ when it is between two vowels, or when it is a coda for ⟨a⟩.
 
-The fricatives are a little bit weird; why include θ/ð alone in their column, rather than bringing in the velar fricatives x/ɣ to maximize distinctiveness and get slightly better correspondence between fricative and plosive series? But perhaps the in-world justification is that they just Wanted More Options for making more short words, and the possibility of x/h confusion pushed for pulling in the dental fricatives instead, despite the labial/dental/alveolar confusability, to allow for including h.
+The fricatives are a little bit weird; why include θ/ð alone in their column? But ⟨th⟩ is extremely common in the corpus, so it's clearly got to be there.
 
-For the plosives, maximizing distinctiveness suggests that all of the voiceless plosives should also be secondarily aspirated--we've only got two plosive series, so we might as well make them as phonetically distinctive as possible!
+For the plosives, maximizing distinctiveness suggests that all of the voiceless plosives should also be secondarily aspirated--we've only got two plosive series (voiced and unvoiced), so we might as well make them as phonetically distinctive as possible!
 
 Phonotactics & Syllable Structure
 ---------------------------------
@@ -148,6 +151,8 @@ Within a word:
 
 Making codas more complex than onsets is just weird, and there does not seem to be any clear in-world justification, but that seems to be where the available data is pointing. Maybe it is meant to allows sub-syllable-level suffixing/infixing morphology? The possibility of coda clusters with initial /l/ and /s/ is suggested only by pre-canonical data, but aside from the general weirdness of complex codas without complex onsets, it is not contradicted by any canonical data, so I have chosen to accept that pre-canonical data on the basis that it obeys the [sonority sequencing principle](https://en.wikipedia.org/wiki/Sonority_Sequencing_Principle) and helps to expand the total number of possible monosyllables.
 
+The example of "Sparashki" suggests the possibility of complex onsets, but that is the sole such example, and as previously noted it is plasuibly intended to be a foreign-sounding word which may break Baseline's native phonotactics.
+
 Allophony
 ---------
 
@@ -155,7 +160,9 @@ Special attention must be paid to how pairs of phonemes are realized across morp
 
 Vowel-initial roots and affixes may trigger resyllabification based on the maximum-onset principle when they occur after consonants in the same morphological word. Across word boundaries, a glottal stop is inserted to occupy the onset consonant position. When vowel-initial words occur after voiceless codas, this glottal stop merges with the preceding consonant to produce a phonetic ejective. This process is entirely predictable from the positions of word boundaries, indicated with a space in both the Baseline orthography and the romanization. Vowel-initial morphemes do not occur in the "basic" vocabulary, for which is it guaranteed that any sequence of phonemes have a unique interpretation, and thus resyllabification cannot be allowed.
 
-Sonorant consonants (⟨r⟩, ⟨y⟩, ⟨l⟩) trigger the insertion of an extra-syllabic glottal stop when they occur doubled, just like hiatus vowels do. This represented in the romanization with a hyphen ⟨-⟩, to make it clear that there are two separate consonants rather than a single onset consonant written doubled for aesthetic reasons, except in the case of /aj.j/ sequences, which are written as ⟨aiy⟩.
+True double consonants are represented in the romanization with a hyphen ⟨-⟩, to make it clear that there are two separate consonants rather than a single onset consonant written doubled for aesthetic / Anglicization reasons, except in the case of /aj.j/ sequences, which are written as ⟨aiy⟩.
+
+Sonorant consonants (⟨r⟩, ⟨y⟩, ⟨l⟩) trigger the insertion of an extra-syllabic glottal stop when they occur doubled, just like hiatus vowels do.
 
 Pairs of homorganic fricatives similarly trigger insertion of an epenthetic glottal stop, which is realized as ejectivization when the first fricative is voiceless.
 
@@ -177,28 +184,54 @@ Possible Syllables
 
 Making the default assumption that the maximum onset principle for syllabification applies, the attested syllables are as follows:
 
-a ath  
-i im  
+a ash ath  
+i im
 el elz  
 bah bahb  
 beth bi bo  
 dath dhi  
 far  
 he hob  
-ka kar kel ko  
-lan le lim lis lorm  
-ma me mel mi  
+ka kar kel ko
+khe  
+lan lar le lim lis lorm  
+ma me mel meth mi
 ne nen  
 pech  
-raht ral ran rez ri rin run  
+raht ral ran re rez ri rin ris run  
 sal  
-sheth shorm  
-thal tham the thin thor  
+sheth shorm
+tel thal tham than the thi thin thor  
 tsi 
-ver vor 
+va ver vi vor 
 ya yals yar 
 
 The possible syllables are a much larger set, totalling 18,450. However, depending on morphological rules, not all of these will necessarily be available for assignment to unique lexical items.
+
+Letter Names
+============
+
+We have one plausible example of a letter name in "Thi". This can be extrapolated in a few ways--perhaps all consonant letter names are just an open syllable with that consonant onset and /i/? But that does not come close to maximizing distinctiveness! A better system which fits with our one example would be to pair consonants with high vs. low vowels based on voicing, and front vs. back vowels based on place of articulation. With a little skewing to ensure potentially-confusable onsets get distinct vowels, we get the following chart of consonant letter names:
+
+
+|             | Labial | Dental  | Alveolar | Palatal  | Velar   | Glottal |
+|-------------|--------|---------|----------|----------|---------|---------|
+| Plosive     | pi ba  |         |  ti da   |          |  ku gah |         |
+| Nasal       |   ma   |         |    na    |          |         |         |
+| Trill       |        |         |    ra    |          |         |         |
+| Fricative   | fi va  | thi dha |  si za   | shi zhah | xi ghah |   hu    |
+| Affricate   |        |         | tsi dza  | chi jah  |         |         |
+| Approximant |        |         |          |   yah    |   lah   |         |
+
+Currently, we have no examples of vowel letter names, but a similar system would make sense. I provisionally propose the following:
+
+|     | Front |  Back   |
+|-----|-------|---------|
+| Hi  | hibi  | yugu    |
+| Mid | heme  | yoko    |
+| Hi  | hafa  | hahshah |
+
+To maximize contrast between vowel names, we ensure that each vowel is repeated twice, in both pre- and post-vocalic environments, with a unique consonant associated with each vowel name, consonants selected to ensure that no syllables of a vowel name are identical with consonant names, and additional onset consonants selected to ensure that letter names can fit into the core language with unambiguous utterance syllabification.
 
 Syntax
 ======
