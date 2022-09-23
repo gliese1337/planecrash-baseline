@@ -131,11 +131,11 @@ There are six consonants with no voicing distinction: /l/ /r/ /y/ /m/ /n/ /h/. A
 |            | Labial | Dental | Alveolar | Palatal | Velar | Glottal |
 |------------|--------|--------|----------|---------|-------|---------|
 |Nasal       |   m    |        |    n     |         |       |         |
-|Plosive     |  p  b  | ts  dz |   t  d   |  ch  j  |  k g  |   (-)   |
+|Plosive     |  p  b  | t   d  |   ts dz  |  ch  j  |  k g  |   (-)   |
 |Fricative   |  f  v  | th  dh |   s  z   |  sh  zh | kh gh |    h    |
 |Approximant |        |        |    r     |    y    |   l   |         |
 
-Shifting ⟨ts⟩ and ⟨dz⟩ from their "default" alveolar place of articulation to the dental place instead also serves to better distribute consonants among the columns and improve the distinctiveness of those affricates from the corresponding pure stops (t, d) and pure fricatives (s, z), so we can assume that, while this fact is not directly retrievable from the Anglicized data, ⟨ts⟩ and ⟨dz⟩ are in fact phonetically dentalized in Baseline as well.
+Shifting ⟨t⟩ and ⟨d⟩ from their "default" alveolar place of articulation to the dental place instead also serves to better distribute consonants among the columns and improve the distinctiveness of those affricates from the corresponding affricatess (ts, dz), so we can assume that, while this fact is not directly retrievable from the Anglicized data, ⟨t⟩ and ⟨d⟩ are in fact phonetically dentalized in Baseline as well.
 
 The Anglicization is slightly complicated by transcribing /k/ as ⟨c⟩ instead of ⟨k⟩ when it precedes ⟨o⟩, and /j/ and ⟨i⟩ instead of ⟨y⟩ when it is between two vowels, or when it is a coda for ⟨a⟩.
 
@@ -224,12 +224,12 @@ Letter Names
 
 We have one plausible example of a letter name in "Thi". This can be extrapolated in a few ways--perhaps all consonant letter names are just an open syllable with that consonant onset and /i/? But that does not come close to maximizing distinctiveness! Instead, vowels are assigned to anti-agree with the frequency spectrum of each consonant, and plosives are further distinguished from fricatives by repeating the named plosive as a coda while fricative names are open syllables. Furthermore, within each column-group of two plosives and two fricatives, all four names will use different vowels, and the confusable fricative sets f-th-s and v-dh-zh each use three distinct vowels as well. The six unpaired consonantshave fewer restrictions are named in a more ad-hoc manner.
 
-|            | Labial  |    Dental    | Alveolar |  Palatal   |  Velar   | Glottal |
-|------------|---------|--------------|----------|------------|----------|---------|
-|Nasal       |   mem   |              |   nin    |            |          |         |
-|Plosive     | pap bob | tsahts dzodz | tet  did | chuch  jaj | kik gog  |         |
-|Fricative   | fu  ve  |  thi   dha   | sah  zu  | sho    zhe | khu ghah |   ha    |
-|Approximant |         |              |   rar    |    yai     |    lo    |         |
+|            | Labial  | Dental  |  Alveolar   |  Palatal   |  Velar   | Glottal |
+|------------|---------|---------|-------------|------------|----------|---------|
+|Nasal       |   mem   |         |     nin     |            |          |         |
+|Plosive     | pap bob | tet dud | tsats dzodz | chuch  jaj | kik gog  |         |
+|Fricative   | fu  ve  | thi dha |  sah   zu   | sho    zhe | khu ghah |   ha    |
+|Approximant |         |         |     rar     |    yai     |    lo    |         |
 
 Currently, we have no examples of vowel letter names, but a similar system would make sense. To maximize contrast between vowel names, we ensure that each vowel is repeated twice, in a basic VCV pattern with a unique consonant associated with each vowel name selected to ensure that no syllables of a vowel name are identical with consonant names and that the chosen consonants agree with the named vowel in backness. To this stem, we add onset consonants to ensure that letter names can fit into the core language with unambiguous utterance syllabification, leading to this preliminary proposal:
 
