@@ -8,14 +8,14 @@ Phonology
 
 The majority of canonical evidence for Baseline phonology comes from personal names:
 
-    Alis       Ashre    Athpechya  Avarris
-    Bahb       Bahdhi   Bohob      Corun
-    Derrin     Elshorm  Elzbeth    Helorm
-    Illeia     Irris    Karal      Keltham
-    Khemeth    Lethan   Limyar     Merrin
-    Miyalsvor  Nemamel  Petheriel  Ranthal
-    Salthin    Thellim  Verrez     Villar
-    Yattel
+    Alis       Ashre      Athpechya  Avarris
+    Bahb       Bahdhi     Bohob      Corun
+    Derrin     Elshorm    Elzbeth    Helorm
+    Illeia     Irris      Karal      Kalorm
+    Keltham    Khemeth    Lethan     Limyar
+    Merrin     Miyalsvor  Nemamel    Petheriel
+    Ranthal    Rittaen    Salthin    Thellim
+    Verrez     Villar     Yattel
 
 Most names have two syllables; a few (5 in this list) have 3, or maybe 4. "Bahb" is the only one-syllable names, but that is likely not representative of any real name used for a dath ilani person, as it appears in a context where it is clearly meant to be transcription of the English name "Bob", as part of the set "Alis, Bahb, and Karal", standing in for "Alice, Bob, and Carol", the standard placeholder names for participants in a cryptographic protocol. "Bohob" seems to be an alternative adaptation of "Bob" that fits Baseline naming patterns better. In combination with "Bahdhi", though, the orthographic possibility of "Bahb" suggests the existence of ⟨a⟩ and ⟨ah⟩ as separate vowels. If ⟨h⟩ can only occur in onset positions, there would be minimal ambiguity introduced in the Anglicization by adopting that convention.
 
@@ -62,8 +62,8 @@ However, fortunately for us, the character who speaks that paragraph is not spec
 
 From this data, we can infer that Baseline has a 6 vowel system:
 
-|     | Front   | Back     |
-|-----|---------|----------|
+|     | Front   | Back    |
+|-----|---------|---------|
 | Hi  | /i/ ⟨i⟩ | /u/ ⟨u⟩  |
 | Mid | /ɛ/ ⟨e⟩ | /o/ ⟨o⟩  |
 | Hi  | /æ/ ⟨a⟩ | /ɑ/ ⟨ah⟩ |
@@ -108,7 +108,9 @@ We interpret ⟨ts⟩ as an affricate on the basis that there are no other word-
 
 The lack of /g/ is not typologically odd on its own, but given the fairly robust fairly robust voicing distinction for most plosives and fricatives, we can infer that there should also be \*/g/, \*/ɣ/, \*/ʒ/, \*/d͡z/, and \*/d͡ʒ/, phonemes, even though they happen to be missing from this dataset, on the basis that, having decided that voicing was usefully distinctive for all other obstruents, the in-world engineers of Baseline wouldn't have just left those specific place/manner combinations unused!
 
-Now, let us consider the case of ⟨tsi-imbi⟩ a little more closely. It's the only attested word with a hyphen in it, and the only word with consecutive identical vowels if you ignore the hyphen. In fact, no attested words have consecutive vowels at all! I infer that this is to maximize the ease of syllable segmentation, and that the hyphen should in fact represent an additional marginal glottal stop (/ʔ/) phoneme (such as shows up in the English "uh-oh"), which shows up wherever vowels would otherwise be in hiatus. That also allows to resolve any possible ambiguity in the usage of ⟨ah⟩ to transcribe the low-back vowel. Something like ⟨bahob⟩ (a minimal change from the attested ⟨Bohob⟩) would have to be read as /bæ.hob/, while /baob/ would be phonetically [ba.ʔ.ob], with extra-metrical /ʔ/, and transcribed as ⟨bah-ob⟩--and /ba.hob/ would be ⟨bahhob⟩. The hyphen can also be used in Anglicization to break disambiguate Ch digraphs from C.h sequences across syllable boundaries; e.g., /a.θa/ would be written ⟨atha⟩, /aθ.ha/ would be written ⟨athha⟩, and /at.ha/ would be written ⟨at-ha⟩.
+Now, let us consider the case of ⟨tsi-imbi⟩ a little more closely. It's the only attested word with a hyphen in it, and one of only two words with consecutive identical vowels if you ignore the hyphen. I infer that this is to maximize the ease of syllable segmentation, and that the hyphen should in fact represent an additional marginal glottal stop (/ʔ/) phoneme (such as shows up in the English "uh-oh"), which shows up wherever vowels would otherwise be in hiatus. That also allows to resolve any possible ambiguity in the usage of ⟨ah⟩ to transcribe the low-back vowel. Something like ⟨bahob⟩ (a minimal change from the attested ⟨Bohob⟩) would have to be read as /bæ.hob/, while /baob/ would be phonetically [ba.ʔ.ob], with extra-metrical /ʔ/, and transcribed as ⟨bah-ob⟩--and /ba.hob/ would be ⟨bahhob⟩. The hyphen can also be used in Anglicization to break disambiguate Ch digraphs from C.h sequences across syllable boundaries; e.g., /a.θa/ would be written ⟨atha⟩, /aθ.ha/ would be written ⟨athha⟩, and /at.ha/ would be written ⟨at-ha⟩.
+
+The name ⟨Rittaen⟩ is the only evidence so far for vowels in apparent-hiatus without a hyphen. [The Word of God](https://discord.com/channels/936151692041400361/946116568599920640/1022692114200547428) is that this name is meant to be pronounced with three syllables, so at least we do not need to consider the possibility of adding diphthongs to the vowel inventory. For consistency, then, we will assume that words of this type either have an onset /j/ which is unwritten in the Anglicization, or an epenthetic glottal stop separating the syllables.
 
 This lack of vowel length or hiatus vowels raises another potential problem with the transcription of other consonants; while we have examples of single intervocalic ⟨l⟩ and ⟨r⟩, there are also a few instance of doubled ⟨ll⟩ and ⟨rr⟩, and a doubled ⟨tt⟩ in ⟨Yattel⟩. And if we aren't allowing doubled vowels, having geminate consonants across syllable boundaries seems like a very weird choice, completely counter to the goal of making syllabic segmentation easy and unambiguous. One could imagine heterosyllabic /l.ʔ.l/ and /r.ʔ.r/ sequences, with epenthetic glottal stops separating syllables just like they do between vowels, but in the absence of written hyphens in the attested names, I am going to assume that the doubled letters are there purely for purposes of Anglophone aesthetics, and that cross-syllable geminates do not exist in Baseline roots. In the cases of ⟨Irris⟩ and ⟨Yattel⟩, for example, the doubled consonants can be easily interpreted as an Anglicization convention to block the pronunciations /aj.rɪs/ (for "Iris")
 and /jej.tɛl/ (for "Yatel") in favor of /i.ris/ and /jæ.tɛl/, respectively. (Eliminating geminates across morpheme boundaries is a more difficult problem, so we will not dismiss that possibility yet.)
@@ -124,9 +126,18 @@ That leads to the following consonants chart:
 | Affricate   |             |               | t͡s ⟨ts⟩ d͡z ⟨dz⟩ | t͡ʃ ⟨ch⟩ d͡ʒ ⟨j⟩ |               |         |
 | Approximant |             |               |                 | j ⟨y⟩          | L ⟨l⟩         |         |
 
-The Anglicization is slightly complicated by transcribing /k/ as ⟨c⟩ instead of ⟨k⟩ when it precedes ⟨o⟩, and /j/ and ⟨i⟩ instead of ⟨y⟩ when it is between two vowels, or when it is a coda for ⟨a⟩.
+There are six consonants with no voicing distinction: /l/ /r/ /y/ /m/ /n/ /h/. Aside from these, however, the remaining 20 consonants can be thought of as a system of 5 types of stops paired with 5 types of fricative, plus voicing distinction, which leads to a much cleaner chart of phonological distinctions:
 
-The fricatives are a little bit weird; why include θ/ð alone in their column? But ⟨th⟩ is extremely common in the corpus, so it's clearly got to be there.
+|            | Labial | Dental | Alveolar | Palatal | Velar | Glottal |
+|------------|--------|--------|----------|---------|-------|---------|
+|Nasal       |   m    |        |    n     |         |       |         |
+|Plosive     |  p  b  | ts  dz |   t  d   |  ch  j  |  k g  |   (-)   |
+|Fricative   |  f  v  | th  dh |   s  z   |  sh  zh | kh gh |    h    |
+|Approximant |        |        |    r     |    y    |   l   |         |
+
+Shifting ⟨ts⟩ and ⟨dz⟩ from their "default" alveolar place of articulation to the dental place instead also serves to better distribute consonants among the columns and improve the distinctiveness of those affricates from the corresponding pure stops (t, d) and pure fricatives (s, z), so we can assume that, while this fact is not directly retrievable from the Anglicized data, ⟨ts⟩ and ⟨dz⟩ are in fact phonetically dentalized in Baseline as well.
+
+The Anglicization is slightly complicated by transcribing /k/ as ⟨c⟩ instead of ⟨k⟩ when it precedes ⟨o⟩, and /j/ and ⟨i⟩ instead of ⟨y⟩ when it is between two vowels, or when it is a coda for ⟨a⟩.
 
 For the plosives, maximizing distinctiveness suggests that all of the voiceless plosives should also be secondarily aspirated--we've only got two plosive series (voiced and unvoiced), so we might as well make them as phonetically distinctive as possible!
 
@@ -191,12 +202,12 @@ bah bahb
 beth bi bo  
 dath dhi  
 far  
-he hob  
+har he hob  
 ka kar kel ko
 khe  
 lan lar le lim lis lorm  
 ma me mel meth mi
-ne nen  
+nam ne nen  
 pech  
 raht ral ran re rez ri rin ris run  
 sal  
@@ -211,27 +222,22 @@ The possible syllables are a much larger set, totalling 18,450. However, dependi
 Letter Names
 ============
 
-We have one plausible example of a letter name in "Thi". This can be extrapolated in a few ways--perhaps all consonant letter names are just an open syllable with that consonant onset and /i/? But that does not come close to maximizing distinctiveness! A better system which fits with our one example would be to pair consonants with high vs. low vowels based on voicing, and front vs. back vowels based on place of articulation. With a little skewing to ensure potentially-confusable onsets get distinct vowels, we get the following chart of consonant letter names:
+We have one plausible example of a letter name in "Thi". This can be extrapolated in a few ways--perhaps all consonant letter names are just an open syllable with that consonant onset and /i/? But that does not come close to maximizing distinctiveness! Instead, vowels are assigned to anti-agree with the frequency spectrum of each consonant, and plosives are further distinguished from fricatives by repeating the named plosive as a coda while fricative names are open syllables. Furthermore, within each column-group of two plosives and two fricatives, all four names will use different vowels, and the confusable fricative sets f-th-s and v-dh-zh each use three distinct vowels as well. The six unpaired consonantshave fewer restrictions are named in a more ad-hoc manner.
 
+|            | Labial  |    Dental    | Alveolar |  Palatal   |  Velar   | Glottal |
+|------------|---------|--------------|----------|------------|----------|---------|
+|Nasal       |   mem   |              |   nin    |            |          |         |
+|Plosive     | pap bob | tsahts dzodz | tet  did | chuch  jaj | kik gog  |         |
+|Fricative   | fu  ve  |  thi   dha   | sah  zu  | sho    zhe | khu ghah |   ha    |
+|Approximant |         |              |   rar    |    yai     |    lo    |         |
 
-|             | Labial | Dental  | Alveolar | Palatal  | Velar   | Glottal |
-|-------------|--------|---------|----------|----------|---------|---------|
-| Plosive     | pi ba  |         |  ti da   |          |  ku gah |         |
-| Nasal       |   ma   |         |    na    |          |         |         |
-| Trill       |        |         |    ra    |          |         |         |
-| Fricative   | fi va  | thi dha |  si za   | shi zhah | xi ghah |   hu    |
-| Affricate   |        |         | tsi dza  | chi jah  |         |         |
-| Approximant |        |         |          |   yah    |   lah   |         |
-
-Currently, we have no examples of vowel letter names, but a similar system would make sense. I provisionally propose the following:
+Currently, we have no examples of vowel letter names, but a similar system would make sense. To maximize contrast between vowel names, we ensure that each vowel is repeated twice, in a basic VCV pattern with a unique consonant associated with each vowel name selected to ensure that no syllables of a vowel name are identical with consonant names and that the chosen consonants agree with the named vowel in backness. To this stem, we add onset consonants to ensure that letter names can fit into the core language with unambiguous utterance syllabification, leading to this preliminary proposal:
 
 |     | Front |  Back   |
 |-----|-------|---------|
 | Hi  | hibi  | yugu    |
-| Mid | heme  | yoko    |
-| Hi  | hafa  | hahshah |
-
-To maximize contrast between vowel names, we ensure that each vowel is repeated twice, in both pre- and post-vocalic environments, with a unique consonant associated with each vowel name, consonants selected to ensure that no syllables of a vowel name are identical with consonant names, and additional onset consonants selected to ensure that letter names can fit into the core language with unambiguous utterance syllabification.
+| Mid | hene  | yoko    |
+| Hi  | hafa  | yahshah |
 
 Syntax
 ======
