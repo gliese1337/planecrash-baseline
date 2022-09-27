@@ -13,9 +13,10 @@ The majority of canonical evidence for Baseline phonology comes from personal na
     Derrin     Elshorm    Elzbeth    Helorm
     Illeia     Irris      Karal      Kalorm
     Keltham    Khemeth    Lethan     Limyar
-    Merrin     Miyalsvor  Nemamel    Petheriel
-    Ranthal    Rittaen    Salthin    Thellim
-    Verrez     Villar     Yattel
+    Merrin     Miyalsvor  Nemamel    Nettir
+    Petheriel  Ranthal    Rittaen    Salthin
+    Thellim    Vellis     Verrez     Villar
+    Yattel
 
 Most names have two syllables; a few (5 in this list) have 3, or maybe 4. "Bahb" is the only one-syllable names, but that is likely not representative of any real name used for a dath ilani person, as it appears in a context where it is clearly meant to be transcription of the English name "Bob", as part of the set "Alis, Bahb, and Karal", standing in for "Alice, Bob, and Carol", the standard placeholder names for participants in a cryptographic protocol. "Bohob" seems to be an alternative adaptation of "Bob" that fits Baseline naming patterns better. In combination with "Bahdhi", though, the orthographic possibility of "Bahb" suggests the existence of ⟨a⟩ and ⟨ah⟩ as separate vowels. If ⟨h⟩ can only occur in onset positions, there would be minimal ambiguity introduced in the Anglicization by adopting that convention.
 
@@ -72,9 +73,9 @@ with three degrees of height, a binary front-back distinction, and rounding in t
 
 It would be more in-line with designing for maximal distinctiveness if the ⟨e⟩ vowel were a little higher, to maximize contrast with /æ/, but we have an explicit negative example where [the dath ilani Merrin struggles to pronounce the French names "Félix" and "Élie"](https://www.glowfic.com/replies/1786094#reply-1786094), which confirms that the Baseline ⟨e⟩ vowel is *not* /e/.
 
-Note, however, that in the attested data coda-⟨r⟩ only occurs after ⟨e⟩, ⟨a⟩, or ⟨o⟩. (As described below in the discussion on geminates, ⟨Irris⟩, which has a surface ⟨ir⟩ sequence, is plausibly syllabified as /i.ris/, with an onset-⟨r⟩ rather than coda-⟨r⟩.) In English phonology, "r" and a few other consonants trigger vowel neutralization in coda positions, resulting in a smaller vowel inventory in the environment of those codas. The lack of tautosyllabic ⟨ir⟩ or ⟨ahr⟩ sequences in the data suggest that we can construct a reduced 3-vowel triangular system in the pre-⟨r⟩ environment, neutralizing ⟨i⟩ and ⟨e⟩ to a mid-close front vowel romanized as ⟨e⟩, a low-mid vowel romanized as ⟨a⟩, and a mid-close back vowel romanized as ⟨o⟩. This will prove numerologically useful for constructing numeric digits later, although it may be contradicted by future data.
+Note, however, that in the attested data coda-⟨r⟩ only occurs after ⟨i⟩, ⟨e⟩, ⟨a⟩, or ⟨o⟩, and with ⟨Nettir⟩ (which the Word of God states is ["vaguely nonilanish"](https://discord.com/channels/936151692041400361/946116568599920640/1024144876436197446))being the only example of unambiguous coda-⟨r⟩ afer ⟨i⟩. (As described below in the discussion on geminates, ⟨Irris⟩, which has a surface ⟨ir⟩ sequence, is plausibly syllabified as /i.ris/, with an onset-⟨r⟩ rather than coda-⟨r⟩.) In English phonology, "r" and a few other consonants trigger vowel neutralization in coda positions, resulting in a smaller vowel inventory in the environment of those codas. The lack of tautosyllabic ⟨ir⟩, ⟨ur⟩ or ⟨ahr⟩ sequences in the data suggest that we can construct a reduced 3-vowel triangular system in the pre-⟨r⟩ environment, neutralizing ⟨i⟩ and ⟨e⟩ to a mid-close front vowel romanized as ⟨e⟩, a low-mid vowel romanized as ⟨a⟩, and a mid-close back vowel romanized as ⟨o⟩. This will prove numerologically useful for constructing numeric digits later.
 
-Given that /j/ never occurs as an unambiguous coda in the canonical or pre-canonical data, we are also free to extend the vowel neutralization environment to pre-/j/ positions as well, which will also serve to assist in proper pronunciation by Anglophone readers. The strangeness of English long vowels, however, requires a special case in the romanization to suggest the proper Anglicized pronunciation--namely, that /aj/ be transcribed as ⟨ai⟩, rather than ⟨ay⟩, as the latter would be mispronounced as /ej/.
+Given that /j/ never occurs as an unambiguous coda in the canonical or pre-canonical data, we are also free to extend the vowel neutralization environment to pre-/j/ positions as well (or possibly the more general pre-approximant environment), which will also serve to assist in proper pronunciation by Anglophone readers. The strangeness of English long vowels, however, requires a special case in the romanization to suggest the proper Anglicized pronunciation--namely, that /aj/ be transcribed as ⟨ai⟩, rather than ⟨ay⟩, as the latter would be mispronounced as /ej/.
 
 Attested consonants, based on the assumption that names are supposed to be pronounced in the most obvious possible way for an Anglophone reader, are as follows:
 
@@ -110,7 +111,7 @@ The lack of /g/ is not typologically odd on its own, but given the fairly robust
 
 Now, let us consider the case of ⟨tsi-imbi⟩ a little more closely. It's the only attested word with a hyphen in it, and one of only two words with consecutive identical vowels if you ignore the hyphen. I infer that this is to maximize the ease of syllable segmentation, and that the hyphen should in fact represent an additional marginal glottal stop (/ʔ/) phoneme (such as shows up in the English "uh-oh"), which shows up wherever vowels would otherwise be in hiatus. That also allows to resolve any possible ambiguity in the usage of ⟨ah⟩ to transcribe the low-back vowel. Something like ⟨bahob⟩ (a minimal change from the attested ⟨Bohob⟩) would have to be read as /bæ.hob/, while /baob/ would be phonetically [ba.ʔ.ob], with extra-metrical /ʔ/, and transcribed as ⟨bah-ob⟩--and /ba.hob/ would be ⟨bahhob⟩. The hyphen can also be used in Anglicization to break disambiguate Ch digraphs from C.h sequences across syllable boundaries; e.g., /a.θa/ would be written ⟨atha⟩, /aθ.ha/ would be written ⟨athha⟩, and /at.ha/ would be written ⟨at-ha⟩.
 
-The name ⟨Rittaen⟩ is the only evidence so far for vowels in apparent-hiatus without a hyphen. [The Word of God](https://discord.com/channels/936151692041400361/946116568599920640/1022692114200547428) is that this name is meant to be pronounced with three syllables, so at least we do not need to consider the possibility of adding diphthongs to the vowel inventory. For consistency, then, we will assume that words of this type either have an onset /j/ which is unwritten in the Anglicization, or an epenthetic glottal stop separating the syllables.
+The names ⟨Petheriel⟩ and ⟨Rittaen⟩ are the only evidence so far for vowels in apparent-hiatus without a hyphen. [The Word of God](https://discord.com/channels/936151692041400361/946116568599920640/1022692114200547428) is that ⟨Rittaen⟩ is meant to be pronounced with three syllables, and the most straightforward pronunciation of ⟨Petheriel⟩ is four syllables, so at least we do not need to consider the possibility of adding diphthongs to the vowel inventory. For consistency, then, we will assume that words of this type either have an onset /j/ which is unwritten in the Anglicization, or an epenthetic glottal stop separating the syllables.
 
 This lack of vowel length or hiatus vowels raises another potential problem with the transcription of other consonants; while we have examples of single intervocalic ⟨l⟩ and ⟨r⟩, there are also a few instance of doubled ⟨ll⟩ and ⟨rr⟩, and a doubled ⟨tt⟩ in ⟨Yattel⟩. And if we aren't allowing doubled vowels, having geminate consonants across syllable boundaries seems like a very weird choice, completely counter to the goal of making syllabic segmentation easy and unambiguous. One could imagine heterosyllabic /l.ʔ.l/ and /r.ʔ.r/ sequences, with epenthetic glottal stops separating syllables just like they do between vowels, but in the absence of written hyphens in the attested names, I am going to assume that the doubled letters are there purely for purposes of Anglophone aesthetics, and that cross-syllable geminates do not exist in Baseline roots. In the cases of ⟨Irris⟩ and ⟨Yattel⟩, for example, the doubled consonants can be easily interpreted as an Anglicization convention to block the pronunciations /aj.rɪs/ (for "Iris")
 and /jej.tɛl/ (for "Yatel") in favor of /i.ris/ and /jæ.tɛl/, respectively. (Eliminating geminates across morpheme boundaries is a more difficult problem, so we will not dismiss that possibility yet.)
@@ -212,12 +213,12 @@ pech
 raht ral ran re rez ri rin ris run  
 sal  
 sheth shorm
-tel thal tham than the thi thin thor  
+tel thal tham than the thi thin thor tir?  
 tsi 
-va ver vi vor 
+va ve ver vi vor 
 ya yals yar 
 
-The possible syllables are a much larger set, totalling 18,450. However, depending on morphological rules, not all of these will necessarily be available for assignment to unique lexical items.
+The possible syllables are a much larger set. However, depending on morphological rules, not all of these will necessarily be available for assignment to unique lexical items.
 
 Letter Names
 ============
