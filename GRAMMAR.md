@@ -67,13 +67,13 @@ From this data, we can infer that Baseline has a 6 vowel system:
 |-----|---------|---------|
 | Hi  | /i/ ⟨i⟩ | /u/ ⟨u⟩  |
 | Mid | /ɛ/ ⟨e⟩ | /o/ ⟨o⟩  |
-| Hi  | /æ/ ⟨a⟩ | /ɑ/ ⟨ah⟩ |
+| Lo  | /æ/ ⟨a⟩ | /ɑ/ ⟨ah⟩ |
 
 with three degrees of height, a binary front-back distinction, and rounding in the back non-low vowels.
 
 It would be more in-line with designing for maximal distinctiveness if the ⟨e⟩ vowel were a little higher, to maximize contrast with /æ/, but we have an explicit negative example where [the dath ilani Merrin struggles to pronounce the French names "Félix" and "Élie"](https://www.glowfic.com/replies/1786094#reply-1786094), which confirms that the Baseline ⟨e⟩ vowel is *not* /e/.
 
-Note, however, that in the attested data coda-⟨r⟩ only occurs after ⟨i⟩, ⟨e⟩, ⟨a⟩, or ⟨o⟩, and with ⟨Nettir⟩ (which the Word of God states is ["vaguely nonilanish"](https://discord.com/channels/936151692041400361/946116568599920640/1024144876436197446))being the only example of unambiguous coda-⟨r⟩ afer ⟨i⟩. (As described below in the discussion on geminates, ⟨Irris⟩, which has a surface ⟨ir⟩ sequence, is plausibly syllabified as /i.ris/, with an onset-⟨r⟩ rather than coda-⟨r⟩.) In English phonology, "r" and a few other consonants trigger vowel neutralization in coda positions, resulting in a smaller vowel inventory in the environment of those codas. The lack of tautosyllabic ⟨ir⟩, ⟨ur⟩ or ⟨ahr⟩ sequences in the data suggest that we can construct a reduced 3-vowel triangular system in the pre-⟨r⟩ environment, neutralizing ⟨i⟩ and ⟨e⟩ to a mid-close front vowel romanized as ⟨e⟩, a low-mid vowel romanized as ⟨a⟩, and a mid-close back vowel romanized as ⟨o⟩. This will prove numerologically useful for constructing numeric digits later.
+Note, however, that in the attested data coda-⟨r⟩ only occurs after ⟨i⟩, ⟨e⟩, ⟨a⟩, or ⟨o⟩, and with ⟨Nettir⟩ (which the Word of God states is ["vaguely nonilanish"](https://discord.com/channels/936151692041400361/946116568599920640/1024144876436197446))being the only example of unambiguous coda-⟨r⟩ after ⟨i⟩. (As described below in the discussion on geminates, ⟨Irris⟩, which has a surface ⟨ir⟩ sequence, is plausibly syllabified as /i.ris/, with an onset-⟨r⟩ rather than coda-⟨r⟩.) In English phonology, "r" and a few other consonants trigger vowel neutralization in coda positions, resulting in a smaller vowel inventory in the environment of those codas. The lack of tautosyllabic ⟨ir⟩, ⟨ur⟩ or ⟨ahr⟩ sequences in the data suggest that we can construct a reduced 3-vowel triangular system in the pre-⟨r⟩ environment, neutralizing ⟨i⟩ and ⟨e⟩ to a mid-close front vowel romanized as ⟨e⟩, a low-mid vowel romanized as ⟨a⟩, and a mid-close back vowel romanized as ⟨o⟩. This will prove numerologically useful for constructing numeric digits later.
 
 Given that /j/ never occurs as an unambiguous coda in the canonical or pre-canonical data, we are also free to extend the vowel neutralization environment to pre-/j/ positions as well (or possibly the more general pre-approximant environment), which will also serve to assist in proper pronunciation by Anglophone readers. The strangeness of English long vowels, however, requires a special case in the romanization to suggest the proper Anglicized pronunciation--namely, that /aj/ be transcribed as ⟨ai⟩, rather than ⟨ay⟩, as the latter would be mispronounced as /ej/.
 
@@ -136,7 +136,7 @@ There are six consonants with no voicing distinction: /l/ /r/ /y/ /m/ /n/ /h/. A
 |Fricative   |  f  v  | th  dh |   s  z   |  sh  zh | kh gh |    h    |
 |Approximant |        |        |    r     |    y    |   l   |         |
 
-Shifting ⟨t⟩ and ⟨d⟩ from their "default" alveolar place of articulation to the dental place instead also serves to better distribute consonants among the columns and improve the distinctiveness of those affricates from the corresponding affricatess (ts, dz), so we can assume that, while this fact is not directly retrievable from the Anglicized data, ⟨t⟩ and ⟨d⟩ are in fact phonetically dentalized in Baseline as well.
+Shifting ⟨t⟩ and ⟨d⟩ from their "default" alveolar place of articulation to the dental place instead also serves to better distribute consonants among the columns and improve the distinctiveness of those affricates from the corresponding affricates (ts, dz), so we can assume that, while this fact is not directly retrievable from the Anglicized data, ⟨t⟩ and ⟨d⟩ are in fact phonetically dentalized in Baseline as well.
 
 The Anglicization is slightly complicated by transcribing /k/ as ⟨c⟩ instead of ⟨k⟩ when it precedes ⟨o⟩, and /j/ and ⟨i⟩ instead of ⟨y⟩ when it is between two vowels, or when it is a coda for ⟨a⟩.
 
@@ -238,7 +238,7 @@ Currently, we have no examples of vowel letter names, but a similar system would
 |-----|-------|---------|
 | Hi  | hibi  | yugu    |
 | Mid | hene  | yoko    |
-| Hi  | hafa  | yahshah |
+| Lo  | hafa  | yahshah |
 
 Syntax
 ======
