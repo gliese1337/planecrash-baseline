@@ -6,17 +6,25 @@ Dath ilan is an alternate-history Earth envisioned by Eliezer Yudkowsky, whose h
 Phonology
 =========
 
-The majority of canonical evidence for Baseline phonology comes from personal names:
+The majority of canonical evidence for Baseline phonology comes from personal names, which can be divided into definitely-canonical:
 
-    Alis       Ashre      Athpechya  Avarris
-    Bahb       Bahdhi     Bohob      Corun
-    Derrin     Elshorm    Elzbeth    Helorm
-    Illeia     Irris      Karal      Kalorm
-    Keltham    Khemeth    Lethan     Limyar
-    Merrin     Miyalsvor  Nemamel    Nettir
-    Petheriel  Ranthal    Rittaen    Salthin
-    Thellim    Vellis     Verrez     Villar
-    Yattel
+    Alis       Athpechya  Bahb
+    Bahdhi     Bohob      Corun
+    Derrin     Elshorm    Elzbeth
+    Helorm     Illeia     Karal
+    Keltham    Limyar     Merrin
+    Miyalsvor  Nemamel    Petheriel
+    Ranthal    Salthin    Thellim
+    Verrez
+
+and probably-canonical (not confirmed approved by Eliezer):
+
+    Ashre   Avarris Curthim
+    Finnar  Illtham Irris
+    Kalorm  Khemeth Lethan
+    Mallor  Nerdel  Nettir
+    Ranthir Rittaen Therril
+    Vellis  Villar  Yattel 
 
 Most names have two syllables; a few (5 in this list) have 3, or maybe 4. "Bahb" is the only one-syllable names, but that is likely not representative of any real name used for a dath ilani person, as it appears in a context where it is clearly meant to be transcription of the English name "Bob", as part of the set "Alis, Bahb, and Karal", standing in for "Alice, Bob, and Carol", the standard placeholder names for participants in a cryptographic protocol. "Bohob" seems to be an alternative adaptation of "Bob" that fits Baseline naming patterns better. In combination with "Bahdhi", though, the orthographic possibility of "Bahb" suggests the existence of ⟨a⟩ and ⟨ah⟩ as separate vowels. If ⟨h⟩ can only occur in onset positions, there would be minimal ambiguity introduced in the Anglicization by adopting that convention.
 
@@ -73,9 +81,11 @@ with three degrees of height, a binary front-back distinction, and rounding in t
 
 It would be more in-line with designing for maximal distinctiveness if the ⟨e⟩ vowel were a little higher, to maximize contrast with /æ/, but we have an explicit negative example where [the dath ilani Merrin struggles to pronounce the French names "Félix" and "Élie"](https://www.glowfic.com/replies/1786094#reply-1786094), which confirms that the Baseline ⟨e⟩ vowel is *not* /e/.
 
-Note, however, that in the attested data coda-⟨r⟩ only occurs after ⟨i⟩, ⟨e⟩, ⟨a⟩, or ⟨o⟩, and with ⟨Nettir⟩ (which the Word of God states is ["vaguely nonilanish"](https://discord.com/channels/936151692041400361/946116568599920640/1024144876436197446))being the only example of unambiguous coda-⟨r⟩ after ⟨i⟩. (As described below in the discussion on geminates, ⟨Irris⟩, which has a surface ⟨ir⟩ sequence, is plausibly syllabified as /i.ris/, with an onset-⟨r⟩ rather than coda-⟨r⟩.) In English phonology, "r" and a few other consonants trigger vowel neutralization in coda positions, resulting in a smaller vowel inventory in the environment of those codas. The lack of tautosyllabic ⟨ir⟩, ⟨ur⟩ or ⟨ahr⟩ sequences in the data suggest that we can construct a reduced 3-vowel triangular system in the pre-⟨r⟩ environment, neutralizing ⟨i⟩ and ⟨e⟩ to a mid-close front vowel romanized as ⟨e⟩, a low-mid vowel romanized as ⟨a⟩, and a mid-close back vowel romanized as ⟨o⟩. This will prove numerologically useful for constructing numeric digits later.
+Note, however, that in the attested definitely-canonical data coda-⟨r⟩ only occurs after ⟨e⟩, ⟨a⟩, or ⟨o⟩. (As described below in the discussion on geminates, ⟨Irris⟩, which has a surface ⟨ir⟩ sequence, is plausibly syllabified as /i.ris/, with an onset-⟨r⟩ rather than coda-⟨r⟩.) In English phonology, "r" and a few other consonants trigger vowel neutralization in coda positions, resulting in a smaller vowel inventory in the environment of those codas. The lack of tautosyllabic ⟨ir⟩, ⟨ur⟩ or ⟨ahr⟩ sequences in the data suggest that we can construct a reduced 3-vowel triangular system in the pre-⟨r⟩ environment, neutralizing ⟨i⟩ and ⟨e⟩ to a mid-close front vowel romanized as ⟨e⟩, a low-mid vowel romanized as ⟨a⟩, and a mid-close back vowel romanized as ⟨o⟩. This will prove numerologically useful for constructing numeric digits later.
 
-Given that /j/ never occurs as an unambiguous coda in the canonical or pre-canonical data, we are also free to extend the vowel neutralization environment to pre-/j/ positions as well (or possibly the more general pre-approximant environment), which will also serve to assist in proper pronunciation by Anglophone readers. The strangeness of English long vowels, however, requires a special case in the romanization to suggest the proper Anglicized pronunciation--namely, that /aj/ be transcribed as ⟨ai⟩, rather than ⟨ay⟩, as the latter would be mispronounced as /ej/.
+This analysis is challenged by the semi-canonical ⟨Nettir⟩ being the only example of unambiguous coda-⟨r⟩ after ⟨i⟩, and ⟨Curthim⟩, being the only example of unambiguous coda-⟨r⟩ after ⟨u⟩. ⟨Nettir⟩, however, has been called ["vaguely nonilanish"](https://discord.com/channels/936151692041400361/946116568599920640/1024144876436197446) by Eliezer, and can be accomodated by assuming that ⟨-ir⟩ is an alternative romanization for the merged e/i vowel to prevent Anglophone readers from pronouncing it as /ɚ/ or /ɹ̩/ (the vowel in, e.g., "p**er**k"). And ⟨Curthim⟩ is an explicit multiversal-alternate of the Tolkeinian character Curufin (whose name, ironically, already fits our induced phonology just fine!), and so could be explained as an alternative Anglicization choice on the basis that ⟨Corthim⟩ more thoroughly obscures the character's origin.
+
+The grapheme-phoneme ⟨y⟩-/j/ never occurs as an unambiguous coda in the canonical or pre-canonical data, so we are also free to extend the vowel neutralization environment to pre-/j/ positions as well, which will also serve to assist in proper pronunciation by Anglophone readers. The strangeness of English long vowels, however, requires a special case in the romanization to suggest the proper Anglicized pronunciation--namely, that /aj/ be transcribed as ⟨ai⟩, rather than ⟨ay⟩, as the latter would be mispronounced as /ej/. Furthermore, coda-⟨l⟩ only occurs after ⟨i⟩ in semicanonical data (⟨Illtham⟩, ⟨Therril⟩; ⟨Illeia⟩ can be syllabified as /i.le.ja/, with onset rather than coda-⟨l⟩), where the most natural English reading is as a short/reduced vowel anyway, so we may be able to extend the neutralization environment to the more general pre-approximant position, with ⟨il⟩ serving as an arbitrary Anglicization variant of ⟨el⟩.
 
 Attested consonants, based on the assumption that names are supposed to be pronounced in the most obvious possible way for an Anglophone reader, are as follows:
 
@@ -145,25 +155,93 @@ For the plosives, maximizing distinctiveness suggests that all of the voiceless 
 Phonotactics & Syllable Structure
 ---------------------------------
 
-Extrapolating from the canonical and pre-canonical evidence, we can infer the following apparent phonotactic rules:
+There are two sets of syllable-and-word structures: a stricter one for the core emergency communication vocabulary, where every sequence of phonemes has exactly one possible interpretation, and a more permissive one for gener vocabulary.
 
-Syllables have the form (C1)V((r|l|s|z)C2(s|z)), where:
+Strict Structure
+================
+
+Word-initial syllables: C1 V ((A|S) C2 (S))
+
+Non-initial syllables: (C1) V ((A|S) C2 (S))
+
+Where:
+* Parentheses indicate optional components
+* Vertical bar (|) indicates a choice
 * C1 is any consonant.
-* C2 is any consonant except /h/.
-* Only reduced vowels are permitted before coda /r/ or /j/.
-* No pre-C2 consonants can occur before /j/.
-* The optional /r/ or /l/ cannot occur before another /r/ or /l/ in the C2 slot.
-* The optional coda sibilants cannot occur adjacent to another sibilant in the C2 slot or prior to a sonorant.
-* /s/ cannot occur adjacent to tautosyllabic voiced stops/fricatives.
-* /z/ cannot occur adjacent to tautosyllabic voiceless stops/fricatives.
+* V is any vowel (conditional on any following approximants)
+* A is any approximant
+* C2 is any consonant except velar non-stops (kh, *gh, rh) and "h"
+* S is either "s" (voiceless) or "z" (voiced), with the same voicing as the adjacent consonant.
+    * For these purposes, nasals count as “voiced” and approximants count as “voiceless”
+* C2 can’t be a second approximant if there is a preceding approximant.
+* C2 can’t be a sibilant (s, z, sh, *zh) if there is a neighboring "s" or "z".
+* C2 can’t be an affricate (ts, *dz, ch, *j) if there is a following "s" or "z".
 
-Within a word:
+Note that the only difference between these two cases is that the initial consonant is optional for non-initial syllables (like “im” in “tsi-imbi”).
+
+Permissive Structure
+====================
+
+Syllables: ((S) C1 (A)) V ((A|S) C2 (S))
+
+The main differences from the strict structure are:
+* The initial consonant is always optional, so words can start with vowels.
+* There may be an initial cluster, with a voicing-match initial "s" or "z" and a following approximant (in which case C1 is restricted similarly to C2, so there aren’t doubled consonants, and C1 can’t be “h” if there is a preceding S).
+* C2 can be a velar (but still not “h”)
+
+Word Structure
+==============
+
 * A syllable cannot end with the same consonant with which the next syllable starts (nor should t/d precede t͡s/d͡z or t͡ʃ/d͡ʒ, respectively).
 * Vowels cannot occur in hiatus on the phonetic level, with extra-syllabic glottal stops being inserted for repair.
 
-Making codas more complex than onsets is just weird, and there does not seem to be any clear in-world justification, but that seems to be where the available data is pointing. Maybe it is meant to allows sub-syllable-level suffixing/infixing morphology? The possibility of coda clusters with initial /l/ and /s/ is suggested only by pre-canonical data, but aside from the general weirdness of complex codas without complex onsets, it is not contradicted by any canonical data, so I have chosen to accept that pre-canonical data on the basis that it obeys the [sonority sequencing principle](https://en.wikipedia.org/wiki/Sonority_Sequencing_Principle) and helps to expand the total number of possible monosyllables.
+Making codas more complex than onsets is a little weird, and there does not seem to be any clear in-world justification, but that seems to be where the available data is pointing, and it has the advantage of making it very easy to parse syllable boundaries unambiguously if every syllable in the emergency core language is guaranteed to have a single-consonant onset. The increased complexity of the permissive syllable structure is suggested on priors to make the generic coda complexity seem less weird, and supported by the existence of ⟨Sparashki⟩. The possibility of coda clusters with initial /l/ and /s/ is suggested by pre-canonical data, but aside from the general weirdness of complex codas without complex onsets, it is not contradicted by any canonical data, so I have chosen to accept that pre-canonical data on the basis that it obeys the [sonority sequencing principle](https://en.wikipedia.org/wiki/Sonority_Sequencing_Principle) and helps to expand the total number of possible monosyllables.
 
-The example of "Sparashki" suggests the possibility of complex onsets, but that is the sole such example, and as previously noted it is plasuibly intended to be a foreign-sounding word which may break Baseline's native phonotactics.
+Nominal Structure
+-----------------
+
+Based on maximum-onset parsing with the permissive syllable structure, the attested two-syllable personal names give us the following sets of initial and final syllables (after normalizing romanization):
+
+| Ini. | Cnt. | Fin.  | Cnt. |
+|------|------|-------|------|
+|  A   |  2   | del   |  1   |
+| Bah  |  1   | dhi   |  1   |
+|  Bo  |  1   | hob   |  1   |
+|  Co  |  1   | lar   |  1   |
+| Cor  |  1   | lim   |  1   |
+|  De  |  1   | lis   |  2   |
+|  El  |  3   | lor   |  1   |
+|  Fi  |  1   | lorm  |  2   |
+|  He  |  1   | meth  |  1   |
+|  I   |  1   | nar   |  1   |
+|  Ka  |  2   | ral   |  1   |
+| Kel  |  1   | rel   |  1   |
+| Khe  |  1   | rez   |  1   |
+|  Le  |  1   | rin   |  2   |
+| Lim  |  1   | ris   |  1   |
+|  Ma  |  1   | run   |  1   |
+|  Me  |  1   | shorm |  1   |
+|  Ne  |  1   | shre  |  1   |
+| Ner  |  1   | tel   |  1   |
+| Ran  |  2   | ter   |  1   |
+| Sal  |  1   | thal  |  1   |
+| The  |  2   | tham  |  2   |
+|  Ve  |  2   | than  |  1   |
+|  Vi  |  1   | ther  |  1   |
+|  Ya  |  1   | thim  |  1   |
+|      |      | thin  |  1   |
+|      |      | yar   |  1   |
+|      |      | zbeth |  1   |
+
+That's 25 unique initials and 28 unique finals, with some duplicates. No syllable is used in more than 3 different names, so it is difficult to tell which elements are or are not more standardized or popular--the sample is simply not large enough--but we can start to make some inferences about the general shapes of Baseline personal names--keeping in mind that a person *can* choose essentially anything as their name, and we are here looking only at the subset of 2-syllable names, which could be considered "socially unmarked".
+
+The first thing to note is that initial syllables seem to be more restricted than final syllables, with a general form of (C)V(A|N), but with a preference for open CV syllables.
+
+Final syllables show a *much stronger* preference for closed CVC form, and occasionally allow both complex onsets (specifically, with sibilant-initial clusters) and complex codas (with r-clusters)--however, the coda consonant apparently cannot be a plosive--fricatives, nasals, and approximants are all fine (although the pre-canonical name ⟨Sinyelt⟩ *does* show a final plosive).
+
+The most unmarked Baseline personal names will therefore have a general form of CV.CV[F|A|N].
+
+Note that, if we instead choose to perform syllabification with coda-maximization rather than onset-maximization, the set of attested initial and final syllables changes slightly, and we lose complex onsets in final syllables, but the *most common* forms of syllables are unaltered.
 
 Allophony
 ---------
