@@ -149,6 +149,19 @@ There are six consonants with no voicing distinction: /l/ /r/ /y/ /m/ /n/ /h/. A
 
 Shifting ⟨t⟩ and ⟨d⟩ from their "default" alveolar place of articulation to the dental place instead also serves to better distribute consonants among the columns and improve the distinctiveness of those affricates from the corresponding affricates (ts, dz), so we can assume that, while this fact is not directly retrievable from the Anglicized data, ⟨t⟩ and ⟨d⟩ are in fact phonetically dentalized in Baseline as well.
 
+Arranging the chart in this form, however, reveals some more obvious gaps--we would get more symmetry by filling out the whole row of 5 approximants to go along with the voiced and unvoiced plosives and fricatives, and by adding in a velar nasal. That results in the following chart:
+
+|         | Lab. | Dent. | Alv. | Pal. | Vel. | Glot. |
+|---------|------|-------|------|------|------|-------|
+|Nasal    |  m   |       |  n   |      |  +ŋ  |       |
+|U. Plos. |  p   |   t̪   |  t͡s  |  t͡ʃ  |   k  |  (ʔ)  |
+|V. Plos. |  b   |   d̪   | *d͡z  | *d͡ʒ  |  *g  |       |
+|U. Fric. |  f   |   θ   |  s   |  ʃ   |   x  |   h   |
+|V. Fric. |  v   |   ð   |  z   | *ʒ   |  *ɣ  |       |
+|Approx.  |  +w  |   l̪   |  r   |  j   |  +ʕ  |       |
+
+in which honemes marked with * are not attested in the canonical corpus yet, but *should* exist based on analyzing phonological gaps and canonical descriptions of the language as desrcribed above, while phonemes marked with + are not yet attested and may not exist, but would make things more symmetrical if they did. Note that, with the addition of /w/, the interpretation of /l/ as velar is less strongly motivated, so it can be moved to fill out the dental column (for which are otherwise no good options), leaving room for a non-lateral approximant in the velar column. (Note that approximant in the Velar column is actually pharyngeal approximant, because the true velar approximant is too articulatorily similar to the velar fricative, so the approximant for that column gets pushed around in phonetic space to make more room between phonemes.) The additional phonemes could, for example, be transcribed as ⟨w⟩ for /w/, ⟨rh⟩ or ⟨q⟩ for /ʕ/, and ⟨ng⟩ for /ŋ/.
+
 The Anglicization is slightly complicated by transcribing /k/ as ⟨c⟩ instead of ⟨k⟩ when it precedes ⟨o⟩, and /j/ and ⟨i⟩ instead of ⟨y⟩ when it is between two vowels, or when it is a coda for ⟨a⟩.
 
 For the plosives, maximizing distinctiveness suggests that all of the voiceless plosives should also be secondarily aspirated--we've only got two plosive series (voiced and unvoiced), so we might as well make them as phonetically distinctive as possible!
@@ -361,7 +374,7 @@ For third person, Baseline uses a single series of personal and demonstrative pr
 
 These forms are always endophoric; that is, that refer to some other phrase in the ongoing discourse. When used in the determiner slot of an argument phrase, the noun complement serves to further restrict what the whole determiner phrase may be referring to, giving greater specificity than the pronoun on its own. Alternately, this can be interpreted as the determiner restricting the noun to co-refer to something else in the discourse.
 
-The prefix ⟨e-⟩ derives *exophoric* demonstratives--pronouns which rever to something in the world external to the discourse, and bring that entity into the discourse. If used with a noun, the demonstrative will always agree with the head of the noun phrase; when used in isolation, however, an exophoric demonstrative may not have any formal linguistic expression to agree with (since the thing it refers to is by definition not yet part of the discourse); for example, when asking "What is that?" In such cases, ⟨eyem⟩ serves as the default, generic demonstrative.
+The prefix ⟨he-⟩ derives *exophoric* demonstratives--pronouns which rever to something in the world external to the discourse, and bring that entity into the discourse. If used with a noun, the demonstrative will always agree with the head of the noun phrase; when used in isolation, however, an exophoric demonstrative may not have any formal linguistic expression to agree with (since the thing it refers to is by definition not yet part of the discourse); for example, when asking "What is that?" In such cases, ⟨heyem⟩ serves as the default, generic demonstrative.
 
 Baseline does not distinguish distal vs. proximal demonstratives.
 
@@ -376,6 +389,11 @@ First person plurals are formed by compounding the first person singular with se
 * ⟨mivem⟩ - me, all of you, and he/she/it
 * ⟨miverm⟩ - me, all of you, and them.
 
+Interrogative Pronouns
+======================
+
+The basic interrogative pronoun is ⟨ha⟩, translatable as "who" or "what" in isolation and "which" when used with a noun. More specific forms can be derived by prefixing this particle to the demnstratives, like ⟨he-⟩ is used to derive exophors. There are, additionally, interrogative attributives ⟨sa⟩ ("which of the...?") and ⟨sar⟩ ("which one in an ordinal series?").
+
 Numerals
 ========
 
@@ -384,28 +402,37 @@ Baseline digits (atomic cardinal numerals) are all single closed syllables begin
 
 No two digits form a minimal pair; that is, all digits differ by at least two phonemes, which is accomplished by varying codas on a different frequency from onsets. Additionally, numerically-adjacent digits have onsets which differ in both place and manner of articulation
 
-There are 21 digits constructed from 3 cycles of the seven onset consonants, paired with 7 cycles of the 3 vowels ⟨e⟩, ⟨ah⟩, and ⟨o⟩. Each cycle of vowels has a consistent coda, with groups of codas cycling through a separate set of seven consonants which are differentiated from onsets to ensure that compound numerals never have sequential identical fricatives: ⟨n⟩ ⟨dh⟩ ⟨d⟩ ⟨m⟩ ⟨g⟩ ⟨b⟩ ⟨l⟩.
+There are 21 digits constructed from 3 cycles of the seven onset consonants, paired with 7 cycles of the 3 vowels ⟨e⟩, ⟨ah⟩, and ⟨o⟩. Each cycle of vowels has a consistent coda, with groups of codas cycling through a separate set of seven consonants which are differentiated from onsets to ensure that compound numerals never have sequential identical fricatives: ⟨n⟩ ⟨dh⟩ ⟨j⟩ ⟨m⟩ ⟨g⟩ ⟨b⟩ ⟨gh⟩.
 
 | Value | Numeral | Value | Numeral | Value | Numeral |
 |-------|---------|-------|---------|-------|---------|
-| 0     | ⟨pen⟩   | 1     | ⟨shahn⟩ | 2     | ⟨ton⟩   |
-| 3     | ⟨fedh⟩  | 4     | ⟨kahdh⟩ | 5     | ⟨chodh⟩ |
-| 6     | ⟨sed⟩   | 7     | ⟨pahd⟩  | 8     | ⟨shod⟩  |
-| 9     | ⟨tem⟩   | 10    | ⟨fahm⟩  | 11    | ⟨kom⟩   |
-| 12    | ⟨cheg⟩  | 13    | ⟨sahg⟩  | 14    | ⟨pog⟩   |
-| 15    | ⟨sheb⟩  | 16    | ⟨tahb⟩  | 17    | ⟨fob⟩   |
-| 18    | ⟨kel⟩   | 19    | ⟨chahl⟩ | 20    | ⟨sol⟩   |
+| 0     | ⟨pen⟩   | 1     | ⟨shahn⟩  | 2     | ⟨ton⟩   |
+| 3     | ⟨fedh⟩  | 4     | ⟨kahdh⟩  | 5     | ⟨chodh⟩ |
+| 6     | ⟨sej⟩   | 7     | ⟨pahj⟩   | 8     | ⟨shoj⟩  |
+| 9     | ⟨tem⟩   | 10    | ⟨fahm⟩   | 11    | ⟨kom⟩   |
+| 12    | ⟨cheg⟩  | 13    | ⟨sahg⟩   | 14    | ⟨pog⟩   |
+| 15    | ⟨sheb⟩  | 16    | ⟨tahb⟩   | 17    | ⟨fob⟩   |
+| 18    | ⟨kegh⟩  | 19    | ⟨chahgh⟩ | 20    | ⟨sogh⟩  |
 
 Sequences of consecutive digits form compound numerals which are interpreted as big-endian place-value representations of a number. By default, digit strings are interpreted in base 12, and no digit larger than 11 ⟨kom⟩ may occur in such a number. Note that any isolated digit may be used to represent its inherent value in any context; thus, while it is possible to represent, e.g., 15 as a base-12 digit string ⟨shahnfedh⟩, it would be more typical to simply say ⟨sheb⟩. When a single digit occurs more than twice in a row in a digit string, the onset consonant of alternating digits, starting with the second occurrence, is voiced, to assist with keeping track of digit positions. Thus, 26388 ("13330" in base 12) would be represented as ⟨shahnfedhvedhfedhpen⟩, not \*⟨shahnfedhfedhfedhpen⟩. This is a much more frequent occurrence when expressing numbers in smaller bases. This voicing alternation is not a waste of phonetic material as the alternate forms never appear as independent words, and so do not produce a homophone conflict with any actual independent words. Avoiding a lexical segmentation conflict just requires that those syllables not be assigned as independent words to anything which is grammatically countable.
 
-Non-integer quantities are expressed by using the infix operator ⟨put⟩, representing a radix point, to separate the whole-number part from the fractional part of a complex numeral. Thus, 2.5 is ⟨tonput sed⟩. Leading zeroes can be omitted; thus, 0.25 is ⟨putfedh⟩, or ⟨penputfedh⟩.
+Non-integer quantities are expressed by using the infix operator ⟨put⟩, representing a radix point, to separate the whole-number part from the fractional part of a complex numeral. Thus, 2.5 is ⟨tonput sej⟩. Leading zeroes can be omitted; thus, 0.25 is ⟨putfedh⟩, or ⟨penputfedh⟩.
 
-Ordinal digits are formed with an infix ⟨-r-⟩, which can result in alterations in the romanization. The final 3 digits, which end in ⟨l⟩ in the cardinal form, simply replace the final ⟨l⟩ to avoid an illegal ⟨rl⟩ cluster. Thus, "first" is ⟨sharn⟩, "twelveth" is ⟨cherg⟩, "twentieth" is ⟨sor⟩, etc. Compound ordinal numerals use ordinal digits throughout. Thus, "one-hundred-fourty-fourth" is ⟨chergcherg⟩, not \*⟨chegcherg⟩ or \*⟨chergcheg⟩. This ensures that there is no ambiguity about boundaries when different numeral classes may appear in hiatus. This occurs, for example, in the expression of rational numbers, which are formed by using a cardinal numerator to quantify over an ordinal denominator, much like English. Thus, "seven eighths" is ⟨pahd shord⟩, and "thirty-seven one-hundred-fourty-fourths" is ⟨fedhshahn chergcherg⟩.
+Ordinal digits are formed with an infix ⟨-r-⟩, which can result in alterations in the romanization. Thus, "first" is ⟨sharn⟩, "twelveth" is ⟨cherg⟩, "twentieth" is ⟨sorgh⟩, etc. Compound ordinal numerals use ordinal digits throughout. Thus, "one-hundred-fourty-fourth" is ⟨chergcherg⟩, not \*⟨chegcherg⟩ or \*⟨chergcheg⟩. This ensures that there is no ambiguity about boundaries when different numeral classes may appear in hiatus. This occurs, for example, in the expression of rational numbers, which are formed by using a cardinal numerator to quantify over an ordinal denominator, much like English. Thus, "seven eighths" is ⟨pahd shord⟩, and "thirty-seven one-hundred-fourty-fourths" is ⟨fedhshahn chergcherg⟩.
 
 While 12 is the default base, in certain contexts digit strings may be interpreted in any other base less than 21. The simplest example of this is the use of the ⟨pernz⟩ construction. A digit with the ⟨pern-⟩ prefix and ⟨-z⟩ suffix may be preposed to any syntactic scope to alter the interpretation of digit strings within that scope. For example, placing ⟨pernsolz⟩ immediately before a digit string will cause that digit string (and any embedded digit strings within a noun phrase over which that digit string quantifies) to be interpreted in base-20. Thus, ⟨kompen⟩ is 132, but ⟨pernsolz kompen⟩ is 220. Another common construction uses the prefix ⟨tu-⟩ with ordinal derivation (using infix ⟨-r-⟩) to produce specialized base indicator which further specify that a single numeral should be interpreted in the given base, but then divided by the square of that base. Thus, ⟨tufarm⟩ translates the English "percent", while ⟨tucherg⟩ means "interpret in base 12, then divide by 144"--a base-12 equivalent of "percent". "Thirty-seven one-hundred-fourty-fourths" may thus be alternately expressed as ⟨tucherg fedhton⟩, while "52 percent" may be expressed as ⟨tufarm chodhton⟩.
 
 Digits and digit strings can also be used in a larger construction which avoids the need to state an explicit base. An ordinal digit string compounded to a cardinal digit string with the suffix ⟨-z⟩ expresses exponentiation ("read as CAR to the ORD power times..."), and may be followed by a unit multiplier (an integer, rational, or radix-point numeral) interpreted in the base of the exponentiated cardinal digit. Note that the ⟨pernz⟩ construction described above is an extension of this pattern--it can be literally read as "X to the 0th power times...", which is otherwise functionally vacuous, as it would literally entail nothing more than multiplying by 1.
 
-Multiple exponent constructions in sequence have their values summed. This allows easy expression of large quantities whose digit-string representations may have lots of zeroes; e.g, "one million two hundred" may be expressed as ⟨serdfahmz shahn tornfahmz ton⟩ (6 syllables), rather than ⟨pernfahmz shahnpenbenpentonpenpen⟩ (base 10, 9 syllables) or ⟨kahdhpentontemfahmpen⟩ (base 12, 6 syllables).
+Multiple exponent constructions in sequence have their values summed. This allows easy expression of large quantities whose digit-string representations may have lots of zeroes; e.g, "one million two hundred" may be expressed as ⟨serjfahmz shahn tornfahmz ton⟩ (6 syllables), rather than ⟨pernfahmz shahnpenbenpentonpenpen⟩ (base 10, 9 syllables) or ⟨kahdhpentontemfahmpen⟩ (base 12, 6 syllables).
 
 Note that there is no requirement that the bases of different terms in an exponential expression must be the same! However, switching radices with multiplier terms larger than 20 (thus, requiring digit string representation) is usually unnecessarily cognitively-taxing.
+
+Telling Time
+============
+
+Baseline divides the day into 60 periods of 24 minutes, called ⟨roksharn⟩--"(the) first division (of the day)". 5 such periods make up 2 hours, or one twelfth of a day, a unit with the distinct name of a ⟨shif⟩. Each roksharn is divided into 60 ⟨roktorn⟩--"(the) second division (of the day)", periods of 24 seconds, commonly translated as "a half-minute". Each roktorn is further divided into 60 ⟨rokferdh⟩--"(the) third division (of the day)", equivalent to 0.4 seconds and commonly translated as "a half-second".
+
+Times are read on a "24-hour" (60 roksharn) clock by reading base-12 ordinal digits in groups of 2, with leading zeros included. A 2-digit time indicates the number of roksharn since midnight, a 4-digit time adds the number of roktorn since the last roksharn, and a 6-digit time adds the number of rokferdh since the last roktorn. Formally, and in the Emergency Sublanguage, each digit group must be followed by the specified unit name, or the generic term ⟨sok⟩ (a finite span of time).
+
+One inquires as to what the current time is with the phrase ⟨Raz sar li?⟩ -- "Moment whicheth question?", an idiomatic eroded form of the sentence "Which moment is now?", using the noun ⟨raz⟩, a moment or specific occurrence.
