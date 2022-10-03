@@ -8,23 +8,24 @@ Phonology
 
 The majority of canonical evidence for Baseline phonology comes from personal names, which can be divided into definitely-canonical:
 
-    Alis       Athpechya  Bahb
-    Bahdhi     Bohob      Corun
-    Derrin     Elshorm    Elzbeth
-    Helorm     Illeia     Karal
-    Keltham    Limyar     Merrin
-    Miyalsvor  Nemamel    Petheriel
-    Ranthal    Salthin    Thellim
-    Verrez
+    Alis       Ashre      Athpechya
+    Bahb       Bahdhi     Bohob
+    Corun      Derrin     Elshorm
+    Elzbeth    Helorm     Illeia
+    Karal      Keltham    Limyar
+    Merrin     Miyalsvor  Nemamel
+    Petheriel  Ranthal    Rittaen
+    Salthin    Thellim    Verrez
 
 and probably-canonical (not confirmed approved by Eliezer):
 
-    Ashre   Avarris Curthim
-    Finnar  Illtham Irris
-    Kalorm  Khemeth Lethan
-    Mallor  Nerdel  Nettir
-    Ranthir Rittaen Therril
-    Vellis  Villar  Yattel 
+    Altham  Avarris Dathim Dekan
+    Fanthim Firrin  Finnar Illtham
+    Indis   Irris   Kalorm Khemeth
+    Kurthin Lethan  Mallor Mirrell
+    Nerdel  Nettir  Pittan Ranthir
+    Telfin  Therril Vellis Villar 
+    Yattel 
 
 Most names have two syllables; a few (5 in this list) have 3, or maybe 4. "Bahb" is the only one-syllable names, but that is likely not representative of any real name used for a dath ilani person, as it appears in a context where it is clearly meant to be transcription of the English name "Bob", as part of the set "Alis, Bahb, and Karal", standing in for "Alice, Bob, and Carol", the standard placeholder names for participants in a cryptographic protocol. "Bohob" seems to be an alternative adaptation of "Bob" that fits Baseline naming patterns better. In combination with "Bahdhi", though, the orthographic possibility of "Bahb" suggests the existence of ⟨a⟩ and ⟨ah⟩ as separate vowels. If ⟨h⟩ can only occur in onset positions, there would be minimal ambiguity introduced in the Anglicization by adopting that convention.
 
@@ -83,7 +84,7 @@ It would be more in-line with designing for maximal distinctiveness if the ⟨e�
 
 Note, however, that in the attested definitely-canonical data coda-⟨r⟩ only occurs after ⟨e⟩, ⟨a⟩, or ⟨o⟩. (As described below in the discussion on geminates, ⟨Irris⟩, which has a surface ⟨ir⟩ sequence, is plausibly syllabified as /i.ris/, with an onset-⟨r⟩ rather than coda-⟨r⟩.) In English phonology, "r" and a few other consonants trigger vowel neutralization in coda positions, resulting in a smaller vowel inventory in the environment of those codas. The lack of tautosyllabic ⟨ir⟩, ⟨ur⟩ or ⟨ahr⟩ sequences in the data suggest that we can construct a reduced 3-vowel triangular system in the pre-⟨r⟩ environment, neutralizing ⟨i⟩ and ⟨e⟩ to a mid-close front vowel romanized as ⟨e⟩, a low-mid vowel romanized as ⟨a⟩, and a mid-close back vowel romanized as ⟨o⟩. This will prove numerologically useful for constructing numeric digits later.
 
-This analysis is challenged by the semi-canonical ⟨Nettir⟩ being the only example of unambiguous coda-⟨r⟩ after ⟨i⟩, and ⟨Curthim⟩, being the only example of unambiguous coda-⟨r⟩ after ⟨u⟩. ⟨Nettir⟩, however, has been called ["vaguely nonilanish"](https://discord.com/channels/936151692041400361/946116568599920640/1024144876436197446) by Eliezer, and can be accomodated by assuming that ⟨-ir⟩ is an alternative romanization for the merged e/i vowel to prevent Anglophone readers from pronouncing it as /ɚ/ or /ɹ̩/ (the vowel in, e.g., "p**er**k"). And ⟨Curthim⟩ is an explicit multiversal-alternate of the Tolkeinian character Curufin (whose name, ironically, already fits our induced phonology just fine!), and so could be explained as an alternative Anglicization choice on the basis that ⟨Corthim⟩ more thoroughly obscures the character's origin.
+This analysis is challenged by the semi-canonical ⟨Nettir⟩ and ⟨Ranthir⟩ being the only examples of unambiguous coda-⟨r⟩ after ⟨i⟩, and ⟨Kurthin⟩, being the only example of unambiguous coda-⟨r⟩ after ⟨u⟩. ⟨Nettir⟩, however, has been called ["vaguely nonilanish"](https://discord.com/channels/936151692041400361/946116568599920640/1024144876436197446) by Eliezer, and both of these names can be accomodated by assuming that ⟨-ir⟩ is an alternative romanization for the merged e/i vowel to prevent Anglophone readers from pronouncing it as /ɚ/ or /ɹ̩/ (the vowel in, e.g., "p**er**k"). ⟨Kurthin⟩ is an explicit multiversal-alternate of the Tolkeinian character Curufin (whose name, ironically, already fits our induced phonology just fine!), but the creator of that name [has confirmed that it does not preserve the Sindarin vowel quality](https://discord.com/channels/936151692041400361/941590054042734645/1026177783124197502), and instead uses /ɚ/ in the English pronunciation. It is not unreasonable to assume that this could correspond to [ʊr] in the "original" Baseline, which is in line with the vowel neutralization hypothesis, with the name being Anglicized weirdly due to its Doylistic origins.
 
 The grapheme-phoneme ⟨y⟩-/j/ never occurs as an unambiguous coda in the canonical or pre-canonical data, so we are also free to extend the vowel neutralization environment to pre-/j/ positions as well, which will also serve to assist in proper pronunciation by Anglophone readers. The strangeness of English long vowels, however, requires a special case in the romanization to suggest the proper Anglicized pronunciation--namely, that /aj/ be transcribed as ⟨ai⟩, rather than ⟨ay⟩, as the latter would be mispronounced as /ej/. Furthermore, coda-⟨l⟩ only occurs after ⟨i⟩ in semicanonical data (⟨Illtham⟩, ⟨Therril⟩; ⟨Illeia⟩ can be syllabified as /i.le.ja/, with onset rather than coda-⟨l⟩), where the most natural English reading is as a short/reduced vowel anyway, so we may be able to extend the neutralization environment to the more general pre-approximant position, with ⟨il⟩ serving as an arbitrary Anglicization variant of ⟨el⟩.
 
@@ -205,41 +206,47 @@ Based on maximum-onset parsing with the permissive syllable structure, the attes
 | Ini. | Cnt. | Fin.  | Cnt. |
 |------|------|-------|------|
 |  A   |  2   | del   |  1   |
-| Bah  |  1   | dhi   |  1   |
-|  Bo  |  1   | hob   |  1   |
-|  Co  |  1   | lar   |  1   |
-| Cor  |  1   | lim   |  1   |
-|  De  |  1   | lis   |  2   |
-|  El  |  3   | lor   |  1   |
-|  Fi  |  1   | lorm  |  2   |
+|  Al  |  1   | dhi   |  1   |
+| Bah  |  1   | dis   |  1   |
+|  Bo  |  1   | fin   |  1   |
+|  Co  |  1   | hob   |  1   |
+| Cor  |  1   | kan   |  1   |
+|  Da  |  1   | lar   |  1   |
+|  De  |  2   | lim   |  1   |
+|  El  |  3   | lis   |  2   |
+| Fan  |  1   | lor   |  1   |
+|  Fi  |  2   | lorm  |  2   |
 |  He  |  1   | meth  |  1   |
 |  I   |  1   | nar   |  1   |
-|  Ka  |  2   | ral   |  1   |
-| Kel  |  1   | rel   |  1   |
-| Khe  |  1   | rez   |  1   |
-|  Le  |  1   | rin   |  2   |
-| Lim  |  1   | ris   |  1   |
-|  Ma  |  1   | run   |  1   |
-|  Me  |  1   | shorm |  1   |
-|  Ne  |  1   | shre  |  1   |
-| Ner  |  1   | tel   |  1   |
-| Ran  |  2   | ter   |  1   |
-| Sal  |  1   | thal  |  1   |
-| The  |  2   | tham  |  2   |
-|  Ve  |  2   | than  |  1   |
-|  Vi  |  1   | ther  |  1   |
-|  Ya  |  1   | thim  |  1   |
-|      |      | thin  |  1   |
-|      |      | yar   |  1   |
-|      |      | zbeth |  1   |
+|  In  |  1   | ral   |  1   |
+|  Ka  |  2   | rel   |  2   |
+| Kel  |  1   | rez   |  1   |
+| Khe  |  1   | rin   |  3   |
+|  Le  |  1   | ris   |  1   |
+| Lim  |  1   | run   |  1   |
+|  Ma  |  1   | shorm |  1   |
+|  Me  |  1   | shre  |  1   |
+|  Mi  |  1   | tan   |  1   |
+|  Ne  |  1   | tel   |  1   |
+| Ner  |  1   | ter   |  1   |
+|  Pi  |  1   | thal  |  1   |
+| Ran  |  2   | tham  |  3   |
+| Sal  |  1   | than  |  1   |
+| Tel  |  1   | ther  |  1   |
+| The  |  2   | thim  |  3   |
+|  Ve  |  2   | thin  |  2   |
+|  Vi  |  1   | yar   |  1   |
+|  Ya  |  1   | zbeth |  1   |
 
-That's 25 unique initials and 28 unique finals, with some duplicates. No syllable is used in more than 3 different names, so it is difficult to tell which elements are or are not more standardized or popular--the sample is simply not large enough--but we can start to make some inferences about the general shapes of Baseline personal names--keeping in mind that a person *can* choose essentially anything as their name, and we are here looking only at the subset of 2-syllable names, which could be considered "socially unmarked".
+That's 32 unique initials and 32 unique finals, with some duplicates. No syllable is used in more than 3 different names, so it is difficult to tell which elements are or are not more standardized or popular--the sample is simply not large enough--but we can start to make some inferences about the general shapes of Baseline personal names--keeping in mind that a person *can* choose essentially anything as their name, and we are here looking only at the subset of 2-syllable names, which could be considered "socially unmarked".
 
 The first thing to note is that initial syllables seem to be more restricted than final syllables, with a general form of (C)V(A|N), but with a preference for open CV syllables.
 
 Final syllables show a *much stronger* preference for closed CVC form, and occasionally allow both complex onsets (specifically, with sibilant-initial clusters) and complex codas (with r-clusters)--however, the coda consonant apparently cannot be a plosive--fricatives, nasals, and approximants are all fine (although the pre-canonical name ⟨Sinyelt⟩ *does* show a final plosive).
 
 The most unmarked Baseline personal names will therefore have a general form of CV.CV[F|A|N].
+
+Even with this restricted syllable template, there are many, many more possible name syllables than are actually attested in the data. Since we are already seeing re-uses of the same syllables, this is evidence that there are distinct preferences for more-and-less-popular name elements, although we do not have a large enough sample to produce specific popularity rates with any useful degree of confidence.
 
 Note that, if we instead choose to perform syllabification with coda-maximization rather than onset-maximization, the set of attested initial and final syllables changes slightly, and we lose complex onsets in final syllables, but the *most common* forms of syllables are unaltered.
 
