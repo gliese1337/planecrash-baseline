@@ -8,24 +8,22 @@ Phonology
 
 The majority of canonical evidence for Baseline phonology comes from personal names, which can be divided into definitely-canonical:
 
-    Alis       Ashre      Athpechya
-    Bahb       Bahdhi     Bohob
-    Corun      Derrin     Elshorm
-    Elzbeth    Helorm     Illeia
-    Karal      Keltham    Limyar
-    Merrin     Miyalsvor  Nemamel
-    Petheriel  Ranthal    Rittaen
-    Salthin    Thellim    Verrez
+    Alis      Ashre   Athpechya Bahb
+    Bahdhi    Bohob   Corun     Derrin
+    Elshorm   Elzbeth Helorm    Illeia
+    Karal     Keltham Limyar    Merrin
+    Miyalsvor Nemamel Petheriel Ranthal
+    Rittaen   Salthin Thellim   Verrez
 
 and probably-canonical (not confirmed approved by Eliezer):
 
-    Altham  Avarris Dathim Dekan
-    Fanthim Firrin  Finnar Illtham
-    Indis   Irris   Kalorm Khemeth
-    Kurthin Lethan  Mallor Mirrell
-    Nerdel  Nettir  Pittan Ranthir
-    Telfin  Therril Vellis Villar 
-    Yattel 
+    Altham    Avarris Dallim    Dathim
+    Dekan     Fanthim Fellim    Firrin
+    Finnar    Illtham Indis     Irris
+    Kalorm    Khemeth Kurthin   Lethan
+    Mallor    Mirrell Nerdel    Nettir
+    Pittan    Ranthir Telfin    Therril
+    Vellis    Villar  Yattel
 
 Most names have two syllables; a few (5 in this list) have 3, or maybe 4. "Bahb" is the only one-syllable names, but that is likely not representative of any real name used for a dath ilani person, as it appears in a context where it is clearly meant to be transcription of the English name "Bob", as part of the set "Alis, Bahb, and Karal", standing in for "Alice, Bob, and Carol", the standard placeholder names for participants in a cryptographic protocol. "Bohob" seems to be an alternative adaptation of "Bob" that fits Baseline naming patterns better. In combination with "Bahdhi", though, the orthographic possibility of "Bahb" suggests the existence of ⟨a⟩ and ⟨ah⟩ as separate vowels. If ⟨h⟩ can only occur in onset positions, there would be minimal ambiguity introduced in the Anglicization by adopting that convention.
 
@@ -224,34 +222,35 @@ Based on maximum-onset parsing with the permissive syllable structure, the attes
 |  Bo  |  1   | fin   |  1   |
 |  Co  |  1   | hob   |  1   |
 | Cor  |  1   | kan   |  1   |
-|  Da  |  1   | lar   |  1   |
-|  De  |  2   | lim   |  1   |
+|  Da  |  2   | lar   |  1   |
+|  De  |  2   | lim   |  3   |
 |  El  |  3   | lis   |  2   |
 | Fan  |  1   | lor   |  1   |
-|  Fi  |  2   | lorm  |  2   |
-|  He  |  1   | meth  |  1   |
-|  I   |  1   | nar   |  1   |
-|  In  |  1   | ral   |  1   |
-|  Ka  |  2   | rel   |  2   |
-| Kel  |  1   | rez   |  1   |
-| Khe  |  1   | rin   |  3   |
-|  Le  |  1   | ris   |  1   |
-| Lim  |  1   | run   |  1   |
-|  Ma  |  1   | shorm |  1   |
-|  Me  |  1   | shre  |  1   |
-|  Mi  |  1   | tan   |  1   |
-|  Ne  |  1   | tel   |  1   |
-| Ner  |  1   | ter   |  1   |
-|  Pi  |  1   | thal  |  1   |
-| Ran  |  2   | tham  |  3   |
-| Sal  |  1   | than  |  1   |
-| Tel  |  1   | ther  |  1   |
-| The  |  2   | thim  |  3   |
-|  Ve  |  2   | thin  |  2   |
-|  Vi  |  1   | yar   |  1   |
-|  Ya  |  1   | zbeth |  1   |
+|  Fe  |  1   | lorm  |  2   |
+|  Fi  |  2   | meth  |  1   |
+|  He  |  1   | nar   |  1   |
+|  I   |  1   | ral   |  1   |
+|  In  |  1   | rel   |  2   |
+|  Ka  |  2   | rez   |  1   |
+| Kel  |  1   | rin   |  3   |
+| Khe  |  1   | ris   |  1   |
+|  Le  |  1   | run   |  1   |
+| Lim  |  1   | shorm |  1   |
+|  Ma  |  1   | shre  |  1   |
+|  Me  |  1   | tan   |  1   |
+|  Mi  |  1   | tel   |  1   |
+|  Ne  |  1   | ter   |  1   |
+| Ner  |  1   | thal  |  1   |
+|  Pi  |  1   | tham  |  3   |
+| Ran  |  2   | than  |  1   |
+| Sal  |  1   | ther  |  1   |
+| Tel  |  1   | thim  |  3   |
+| The  |  2   | thin  |  2   |
+|  Ve  |  2   | yar   |  1   |
+|  Vi  |  1   | zbeth |  1   |
+|  Ya  |  1   |       |      |
 
-That's 32 unique initials and 32 unique finals, with some duplicates. No syllable is used in more than 3 different names, so it is difficult to tell which elements are or are not more standardized or popular--the sample is simply not large enough--but we can start to make some inferences about the general shapes of Baseline personal names--keeping in mind that a person *can* choose essentially anything as their name, and we are here looking only at the subset of 2-syllable names, which could be considered "socially unmarked".
+That's 33 unique initials and 32 unique finals, with some duplicates. No syllable is used in more than 3 different names, so it is difficult to tell which elements are or are not more standardized or popular--the sample is simply not large enough--but we can start to make some inferences about the general shapes of Baseline personal names--keeping in mind that a person *can* choose essentially anything as their name, and we are here looking only at the subset of 2-syllable names, which could be considered "socially unmarked".
 
 The first thing to note is that initial syllables seem to be more restricted than final syllables, with a general form of (C)V(A|N), but with a preference for open CV syllables.
 
@@ -400,7 +399,7 @@ Numerals
 Baseline digits (atomic cardinal numerals) are all single closed syllables beginning with one of seven voiceless consonants: 
 ⟨p⟩ ⟨sh⟩ ⟨t⟩ ⟨f⟩ ⟨k⟩ ⟨ch⟩ ⟨s⟩.
 
-No two digits form a minimal pair; that is, all digits differ by at least two phonemes, which is accomplished by varying codas on a different frequency from onsets. Additionally, numerically-adjacent digits have onsets which differ in both place and manner of articulation
+No two digits form a minimal pair; that is, all digits differ by at least two phonemes, which is accomplished by varying codas on a different cycle from onsets. Additionally, numerically-adjacent digits have onsets which differ in both place and manner of articulation
 
 There are 21 digits constructed from 3 cycles of the seven onset consonants, paired with 7 cycles of the 3 vowels ⟨e⟩, ⟨ah⟩, and ⟨o⟩. Each cycle of vowels has a consistent coda, with groups of codas cycling through a separate set of seven consonants which are differentiated from onsets to ensure that compound numerals never have sequential identical fricatives: ⟨n⟩ ⟨dh⟩ ⟨j⟩ ⟨m⟩ ⟨g⟩ ⟨b⟩ ⟨gh⟩.
 
@@ -420,6 +419,8 @@ Non-integer quantities are expressed by using the infix operator ⟨put⟩, repr
 
 Ordinal digits are formed with an infix ⟨-r-⟩, which can result in alterations in the romanization. Thus, "first" is ⟨sharn⟩, "twelveth" is ⟨cherg⟩, "twentieth" is ⟨sorgh⟩, etc. Compound ordinal numerals use ordinal digits throughout. Thus, "one-hundred-fourty-fourth" is ⟨chergcherg⟩, not \*⟨chegcherg⟩ or \*⟨chergcheg⟩. This ensures that there is no ambiguity about boundaries when different numeral classes may appear in hiatus. This occurs, for example, in the expression of rational numbers, which are formed by using a cardinal numerator to quantify over an ordinal denominator, much like English. Thus, "seven eighths" is ⟨pahd shord⟩, and "thirty-seven one-hundred-fourty-fourths" is ⟨fedhshahn chergcherg⟩.
 
+Lable digits--a second "adjectival" form similar to ordinals, but used when literal order is not contextually relevant (e.g., for addresses, serial numbers, etc.)--are formed with an infix ⟨-l-⟩, which can also result in alterations in the romanization. Thus, "the X number one" is ⟨shaln⟩, "the X number 12 " is ⟨chelg⟩, etc. Like ordinals, compound label numerals use label digits throughout.
+
 While 12 is the default base, in certain contexts digit strings may be interpreted in any other base less than 21. The simplest example of this is the use of the ⟨pernz⟩ construction. A digit with the ⟨pern-⟩ prefix and ⟨-z⟩ suffix may be preposed to any syntactic scope to alter the interpretation of digit strings within that scope. For example, placing ⟨pernsolz⟩ immediately before a digit string will cause that digit string (and any embedded digit strings within a noun phrase over which that digit string quantifies) to be interpreted in base-20. Thus, ⟨kompen⟩ is 132, but ⟨pernsolz kompen⟩ is 220. Another common construction uses the prefix ⟨tu-⟩ with ordinal derivation (using infix ⟨-r-⟩) to produce specialized base indicator which further specify that a single numeral should be interpreted in the given base, but then divided by the square of that base. Thus, ⟨tufarm⟩ translates the English "percent", while ⟨tucherg⟩ means "interpret in base 12, then divide by 144"--a base-12 equivalent of "percent". "Thirty-seven one-hundred-fourty-fourths" may thus be alternately expressed as ⟨tucherg fedhton⟩, while "52 percent" may be expressed as ⟨tufarm chodhton⟩.
 
 Digits and digit strings can also be used in a larger construction which avoids the need to state an explicit base. An ordinal digit string compounded to a cardinal digit string with the suffix ⟨-z⟩ expresses exponentiation ("read as CAR to the ORD power times..."), and may be followed by a unit multiplier (an integer, rational, or radix-point numeral) interpreted in the base of the exponentiated cardinal digit. Note that the ⟨pernz⟩ construction described above is an extension of this pattern--it can be literally read as "X to the 0th power times...", which is otherwise functionally vacuous, as it would literally entail nothing more than multiplying by 1.
@@ -431,8 +432,8 @@ Note that there is no requirement that the bases of different terms in an expone
 Telling Time
 ============
 
-Baseline divides the day into 60 periods of 24 minutes, called ⟨roksharn⟩--"(the) first division (of the day)". 5 such periods make up 2 hours, or one twelfth of a day, a unit with the distinct name of a ⟨shif⟩. Each roksharn is divided into 60 ⟨roktorn⟩--"(the) second division (of the day)", periods of 24 seconds, commonly translated as "a half-minute". Each roktorn is further divided into 60 ⟨rokferdh⟩--"(the) third division (of the day)", equivalent to 0.4 seconds and commonly translated as "a half-second".
+Baseline time units are not based on divisions of the day, but rather on power-of-16 multiples of a base unit. The smallest unit in regular usage is a ⟨rokshaln⟩ ("time-period number 1"). 16 such periods make up a ⟨roktoln⟩; 16 of those make up a ⟨rokfeldh⟩, and 16 of those make up the largest conventional unit, a ⟨rok-kaldh⟩.
 
-Times are read on a "24-hour" (60 roksharn) clock by reading base-12 ordinal digits in groups of 2, with leading zeros included. A 2-digit time indicates the number of roksharn since midnight, a 4-digit time adds the number of roktorn since the last roksharn, and a 6-digit time adds the number of rokferdh since the last roktorn. Formally, and in the Emergency Sublanguage, each digit group must be followed by the specified unit name, or the generic term ⟨sok⟩ (a finite span of time).
+Times are read on a "24-hour" clock as base-16 ordinal numbers, with leading zeros included in earlier parts of the day but trailing zeros omitted; thus, the first stated digit always refers to the number of rok-kaldh since the start of the calendar day. "Time 0" for a new calendar say starts at the latest point in the day when it is guaranteed to be light in Default City at any time of year. There are no time zones--all of dath ilan runs on the Default City clock. As a result, it is not uncommon for events in other parts of dath ilan (or which occur in the morning in Default) to extend across calendar day boundaries; in such cases, points in time referring to events which began in a previous day are referred to by keeping the date the same, but continuing to increase the rok-kaldh count beyond the standard length of a day. Also note, however, that calendar days are not an integer number of rok-kaldh in length, with the final calendrical rok-kaldth of a calendar day being shorter than a standard rok-kaldh. This shortened rok-kaldh is respected even when continuing counts across day boundaries, so that the end of an extended rok-kaldh from Day N will still match up with the boundaries of a rok-kaldh in Day N+1. Extended times may require counting above 16 rok-kaldh digits; in that case, basic numerals through 20 can still be used in the usual time-reporting format. Above 20, however, an explicit statement of the time unit must be used to avoid ambiguity, with the format ⟨rok-kaldh⟩ {n-digit-ordinal} (⟨kai⟩ {subtime}), where "subtime" is a leading-zero-padded ordinal digit string giving the rokfeldh-roktorn-rokshaln count since the last rok-kaldh boundary.
 
 One inquires as to what the current time is with the phrase ⟨Raz sar li?⟩ -- "Moment whicheth question?", an idiomatic eroded form of the sentence "Which moment is now?", using the noun ⟨raz⟩, a moment or specific occurrence.
