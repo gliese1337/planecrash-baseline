@@ -213,3 +213,6 @@ I don't know how people express gratitude here for having meta-successfully comp
 > "Um, person who finds it hugely painful to be the slightest bit tactful to anyone or hold back her thoughts, and is constantly noticing how everything in Civilization is falling way short of her standards for how it ought to look namely perfect. You don't meet any of her standards either, but she thinks that way about everyone, so it isn't anything personal, or really about the person you yourself are at all."
 > 
 > (*) Dath ilan doesn't quite have the concept that some other places might call by names like 'autistic', because it's a pretty different phenomenon when the weirdos in question have INT 22 and WIS 16, and also are embedded in a larger Civilization that doesn't think about weirdness the same way as some other places; namely weirdness = difference = specialization direction = exploit for comparative advantage.
+
+https://glowfic.com/replies/1874798#reply-1874798
+"Tears and hugs don't solve anything," goes a proverb out of dath ilan, "so don't offer them to people who need solutions."

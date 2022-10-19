@@ -8,22 +8,24 @@ Phonology
 
 The majority of canonical evidence for Baseline phonology comes from personal names, which can be divided into definitely-canonical:
 
-    Alis      Ashre   Athpechya Bahb
-    Bahdhi    Bohob   Corun     Derrin
-    Elshorm   Elzbeth Helorm    Illeia
-    Karal     Keltham Limyar    Merrin
-    Miyalsvor Nemamel Petheriel Ranthal
-    Rittaen   Salthin Thellim   Verrez
+    Alis     Ashre     Athpechya Bahb
+    Bahdhi   Bohob     Corun     Derrin
+    Elshorm  Elzbeth   Erler     Helorm
+    Illeia   Karal     Keltham   Limyar
+    Merrin   Miyalsvor Nemamel   Petheriel
+    Ranthal  Rittaen   Salthin   Thellim
+    Welthorm Verrez
 
 and probably-canonical (not confirmed approved by Eliezer):
 
-    Altham    Avarris Dallim    Dathim
-    Dekan     Fanthim Fellim    Firrin
-    Finnar    Illtham Indis     Irris
-    Kalorm    Khemeth Kurthin   Lethan
-    Mallor    Mirrell Nerdel    Nettir
-    Pittan    Ranthir Telfin    Therril
-    Vellis    Villar  Yattel
+    Altham   Avarris   Dallim    Dathim
+    Dekan    Fanthim   Farris    Fellim
+    Firrin   Finnar    Halthis   Illtham
+    Indis    Irris     Kalorm    Khemeth
+    Kurthin  Lethan    Mallor    Mirrell
+    Nerdel   Nettir    Pittan    Ranthir
+    Silan    Telfin    Tharrim   Therril
+    Vellis   Villar    Yattel
 
 Most names have two syllables; a few (5 in this list) have 3, or maybe 4. "Bahb" is the only one-syllable names, but that is likely not representative of any real name used for a dath ilani person, as it appears in a context where it is clearly meant to be transcription of the English name "Bob", as part of the set "Alis, Bahb, and Karal", standing in for "Alice, Bob, and Carol", the standard placeholder names for participants in a cryptographic protocol. "Bohob" seems to be an alternative adaptation of "Bob" that fits Baseline naming patterns better. In combination with "Bahdhi", though, the orthographic possibility of "Bahb" suggests the existence of ⟨a⟩ and ⟨ah⟩ as separate vowels. If ⟨h⟩ can only occur in onset positions, there would be minimal ambiguity introduced in the Anglicization by adopting that convention.
 
@@ -37,7 +39,7 @@ Which suggests that 4-syllable names are *possible*, but rare--probably over-rep
 
 As a cultural note, all dath ilani are mononymic, so there is nothing to be said about the structure of family names / patronymics.
 
-We also have the non-personal proper nouns "Harkanam" (name of a city), "Sparashki" (name of a fictional alien species; could be intentionally-foreign), and "Thi" (inferred to be the name of a letter).
+We also have the non-personal proper nouns "Harkanam" and "Alkan" (names of cities), "Sparashki" (name of a fictional alien species; could be intentionally-foreign), and "Thi" (inferred to be the name of a letter).
 
 The following non-personal-name words are also attested:
 
@@ -95,7 +97,8 @@ d - /d/
 k/c - /k/
 
 f - /f/  
-v - /v/  
+v - /v/
+w - /w/
 s - /s/  
 z - /z/  
 th - /θ/  
@@ -107,7 +110,7 @@ h - /h/
 ts - /t͡s/  
 ch - /t͡ʃ/
 
-l - /L/ (for maximal distinctiveness from /j/, we assume this to be a dark/velarized l, rather than copying English's light/dark allophony; the presence of this and /v/ justify the lack of /w/)  
+l - /l/
 r - /r/ (for maximal distinctiveness from /l/, we assume this to be a tap/trill even though that's not the *most* natural reading for most Anglophones).  
 y - /j/
 
@@ -134,7 +137,7 @@ That leads to the following consonants chart:
 | Trill       |             |               | r ⟨r⟩           |                |               |         |
 | Fricative   | f ⟨f⟩ v ⟨v⟩ | θ ⟨th⟩ ð ⟨dh⟩ | s ⟨s⟩ z ⟨z⟩     | ʃ ⟨sh⟩ ʒ ⟨zh⟩  | x ⟨kh⟩ ɣ ⟨gh⟩ | h ⟨h⟩   |
 | Affricate   |             |               | t͡s ⟨ts⟩ d͡z ⟨dz⟩ | t͡ʃ ⟨ch⟩ d͡ʒ ⟨j⟩ |               |         |
-| Approximant |             |               |                 | j ⟨y⟩          | L ⟨l⟩         |         |
+| Approximant |   w ⟨w⟩     |     l ⟨l⟩     |                 | j ⟨y⟩          |               |         |
 
 There are six consonants with no voicing distinction: /l/ /r/ /y/ /m/ /n/ /h/. Aside from these, however, the remaining 20 consonants can be thought of as a system of 5 types of stops paired with 5 types of fricative, plus voicing distinction, which leads to a much cleaner chart of phonological distinctions:
 
@@ -143,7 +146,7 @@ There are six consonants with no voicing distinction: /l/ /r/ /y/ /m/ /n/ /h/. A
 |Nasal       |   m    |        |    n     |         |       |         |
 |Plosive     |  p  b  | t   d  |   ts dz  |  ch  j  |  k g  |   (-)   |
 |Fricative   |  f  v  | th  dh |   s  z   |  sh  zh | kh gh |    h    |
-|Approximant |        |        |    r     |    y    |   l   |         |
+|Approximant |   w    |   l    |    r     |    y    |       |         |
 
 Shifting ⟨t⟩ and ⟨d⟩ from their "default" alveolar place of articulation to the dental place instead also serves to better distribute consonants among the columns and improve the distinctiveness of those affricates from the corresponding affricates (ts, dz), so we can assume that, while this fact is not directly retrievable from the Anglicized data, ⟨t⟩ and ⟨d⟩ are in fact phonetically dentalized in Baseline as well.
 
@@ -156,9 +159,9 @@ Arranging the chart in this form, however, reveals some more obvious gaps--we wo
 |V. Plos. |  b   |   d̪   | *d͡z  | *d͡ʒ  |  *g  |       |
 |U. Fric. |  f   |   θ   |  s   |  ʃ   |   x  |   h   |
 |V. Fric. |  v   |   ð   |  z   | *ʒ   |  *ɣ  |       |
-|Approx.  |  +w  |   l̪   |  r   |  j   |  +ʕ  |       |
+|Approx.  |  w   |   l̪   |  r   |  j   |  +ʕ  |       |
 
-in which honemes marked with * are not attested in the canonical corpus yet, but *should* exist based on analyzing phonological gaps and canonical descriptions of the language as desrcribed above, while phonemes marked with + are not yet attested and may not exist, but would make things more symmetrical if they did. Note that, with the addition of /w/, the interpretation of /l/ as velar is less strongly motivated, so it can be moved to fill out the dental column (for which are otherwise no good options), leaving room for a non-lateral approximant in the velar column. (Note that approximant in the Velar column is actually pharyngeal approximant, because the true velar approximant is too articulatorily similar to the velar fricative, so the approximant for that column gets pushed around in phonetic space to make more room between phonemes.) The additional phonemes could, for example, be transcribed as ⟨w⟩ for /w/, ⟨rh⟩ or ⟨q⟩ for /ʕ/, and ⟨ng⟩ for /ŋ/.
+in which phonemes marked with * are not attested in the canonical corpus yet, but *should* exist based on analyzing phonological gaps and canonical descriptions of the language as desrcribed above, while phonemes marked with + are not yet attested and may not exist, but would make things more symmetrical if they did. (Note that the IPA symbol for the approximant in the Velar column is actually a pharyngeal approximant, because the true velar approximant is too articulatorily similar to the velar fricative, so the approximant for that column gets pushed around in phonetic space to make more room between phonemes.) The additional phonemes could, for example, be transcribed as ⟨rh⟩ or ⟨q⟩ for /ʕ/ and ⟨ng⟩ for /ŋ/.
 
 The Anglicization is slightly complicated by transcribing /k/ as ⟨c⟩ instead of ⟨k⟩ when it precedes ⟨o⟩, and /j/ and ⟨i⟩ instead of ⟨y⟩ when it is between two vowels, or when it is a coda for ⟨a⟩.
 
@@ -222,18 +225,21 @@ Based on maximum-onset parsing with the permissive syllable structure, the attes
 |  Bo  |  1   | fin   |  1   |
 |  Co  |  1   | hob   |  1   |
 | Cor  |  1   | kan   |  1   |
-|  Da  |  2   | lar   |  1   |
-|  De  |  2   | lim   |  3   |
-|  El  |  3   | lis   |  2   |
+|  Da  |  2   | lam   |  1   |
+|  De  |  2   | lar   |  1   |
+|  El  |  3   | ler   |  1   |
+|  Er  |  1   | lim   |  3   |
+|  Fa  |  1   | lis   |  2   |
 | Fan  |  1   | lor   |  1   |
 |  Fe  |  1   | lorm  |  2   |
 |  Fi  |  2   | meth  |  1   |
-|  He  |  1   | nar   |  1   |
-|  I   |  1   | ral   |  1   |
-|  In  |  1   | rel   |  2   |
-|  Ka  |  2   | rez   |  1   |
+| Hal  |  1   | nar   |  1   |
+|  He  |  1   | ral   |  1   |
+|  I   |  1   | rel   |  2   |
+|  In  |  1   | rez   |  1   |
+|  Ka  |  2   | rim   |  1   |
 | Kel  |  1   | rin   |  3   |
-| Khe  |  1   | ris   |  1   |
+| Khe  |  1   | ris   |  2   |
 |  Le  |  1   | run   |  1   |
 | Lim  |  1   | shorm |  1   |
 |  Ma  |  1   | shre  |  1   |
@@ -244,13 +250,16 @@ Based on maximum-onset parsing with the permissive syllable structure, the attes
 |  Pi  |  1   | tham  |  3   |
 | Ran  |  2   | than  |  1   |
 | Sal  |  1   | ther  |  1   |
-| Tel  |  1   | thim  |  3   |
-| The  |  2   | thin  |  2   |
+|  Si  |  1   | thim  |  3   |
+| Tel  |  1   | thin  |  2   |
+| Tha  |  1   | this  |  1   |
+| The  |  2   | thorm |  1   |
 |  Ve  |  2   | yar   |  1   |
 |  Vi  |  1   | zbeth |  1   |
+| Wel  |  1   |       |      |
 |  Ya  |  1   |       |      |
 
-That's 33 unique initials and 32 unique finals, with some duplicates. No syllable is used in more than 3 different names, so it is difficult to tell which elements are or are not more standardized or popular--the sample is simply not large enough--but we can start to make some inferences about the general shapes of Baseline personal names--keeping in mind that a person *can* choose essentially anything as their name, and we are here looking only at the subset of 2-syllable names, which could be considered "socially unmarked".
+That's 39 unique initials and 37 unique finals, with some duplicates. No syllable is used in more than 3 different names, so it is difficult to tell which elements are or are not more standardized or popular--the sample is simply not large enough--but we can start to make some inferences about the general shapes of Baseline personal names--keeping in mind that a person *can* choose essentially anything as their name, and we are here looking only at the subset of 2-syllable names, which could be considered "socially unmarked".
 
 The first thing to note is that initial syllables seem to be more restricted than final syllables, with a general form of (C)V(A|N), but with a preference for open CV syllables.
 
