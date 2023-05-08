@@ -18,14 +18,15 @@ The majority of canonical evidence for Baseline phonology comes from personal na
 
 and probably-canonical (not confirmed approved by Eliezer):
 
-    Altham   Avarris   Dallim    Dathim
-    Dekan    Fanthim   Farris    Fellim
-    Firrin   Finnar    Halthis   Illtham
-    Indis    Irris     Kalorm    Khemeth
-    Kurthin  Lethan    Mallor    Mirrell
-    Nerdel   Nettir    Pittan    Ranthir
-    Silan    Telfin    Tharrim   Therril
-    Vellis   Villar    Yattel
+    Altham   Avarris   Dallim    Dalthem
+    Dathim   Dekan     Fanthim   Farris
+    Fellim   Firrin    Finnar    Halthis
+    Illtham  Indis     Irris     Kalorm
+    Kerrin   Khemeth   Kurthin   Lethan
+    Mallor   Mirrell   Nerdel    Nettir
+    Pittan   Ranthir   Silan     Telfin
+    Tharrim  Therril   Vellis    Villar
+    Yattel
 
 Most names have two syllables; a few (5 in this list) have 3, or maybe 4. "Bahb" is the only one-syllable names, but that is likely not representative of any real name used for a dath ilani person, as it appears in a context where it is clearly meant to be transcription of the English name "Bob", as part of the set "Alis, Bahb, and Karal", standing in for "Alice, Bob, and Carol", the standard placeholder names for participants in a cryptographic protocol. "Bohob" seems to be an alternative adaptation of "Bob" that fits Baseline naming patterns better. In combination with "Bahdhi", though, the orthographic possibility of "Bahb" suggests the existence of ⟨a⟩ and ⟨ah⟩ as separate vowels. If ⟨h⟩ can only occur in onset positions, there would be minimal ambiguity introduced in the Anglicization by adopting that convention.
 
@@ -226,40 +227,42 @@ Based on maximum-onset parsing with the permissive syllable structure, the attes
 |  Co  |  1   | hob   |  1   |
 | Cor  |  1   | kan   |  1   |
 |  Da  |  2   | lam   |  1   |
-|  De  |  2   | lar   |  1   |
-|  El  |  3   | ler   |  1   |
-|  Er  |  1   | lim   |  3   |
-|  Fa  |  1   | lis   |  2   |
-| Fan  |  1   | lor   |  1   |
-|  Fe  |  1   | lorm  |  2   |
-|  Fi  |  2   | meth  |  1   |
-| Hal  |  1   | nar   |  1   |
-|  He  |  1   | ral   |  1   |
-|  I   |  1   | rel   |  2   |
-|  In  |  1   | rez   |  1   |
-|  Ka  |  2   | rim   |  1   |
-| Kel  |  1   | rin   |  3   |
-| Khe  |  1   | ris   |  2   |
-|  Le  |  1   | run   |  1   |
-| Lim  |  1   | shorm |  1   |
-|  Ma  |  1   | shre  |  1   |
-|  Me  |  1   | tan   |  1   |
-|  Mi  |  1   | tel   |  1   |
-|  Ne  |  1   | ter   |  1   |
-| Ner  |  1   | thal  |  1   |
-|  Pi  |  1   | tham  |  3   |
-| Ran  |  2   | than  |  1   |
-| Sal  |  1   | ther  |  1   |
-|  Si  |  1   | thim  |  3   |
-| Tel  |  1   | thin  |  2   |
-| Tha  |  1   | this  |  1   |
-| The  |  2   | thorm |  1   |
-|  Ve  |  2   | yar   |  1   |
-|  Vi  |  1   | zbeth |  1   |
+| Dal  |  1   | lar   |  1   |
+|  De  |  2   | ler   |  1   |
+|  El  |  3   | lim   |  3   |
+|  Er  |  1   | lis   |  2   |
+|  Fa  |  1   | lor   |  1   |
+| Fan  |  1   | lorm  |  2   |
+|  Fe  |  1   | meth  |  1   |
+|  Fi  |  2   | nar   |  1   |
+| Hal  |  1   | ral   |  1   |
+|  He  |  1   | rel   |  2   |
+|  I   |  1   | rez   |  1   |
+|  In  |  1   | rim   |  1   |
+|  Ka  |  2   | rin   |  4   |
+|  Ke  |  1   | ris   |  2   |
+| Kel  |  1   | run   |  1   |
+| Khe  |  1   | shorm |  1   |
+|  Le  |  1   | shre  |  1   |
+| Lim  |  1   | tan   |  1   |
+|  Ma  |  1   | tel   |  1   |
+|  Me  |  1   | ter   |  1   |
+|  Mi  |  1   | thal  |  1   |
+|  Ne  |  1   | tham  |  3   |
+| Ner  |  1   | them  |  1   |
+|  Pi  |  1   | than  |  1   |
+| Ran  |  2   | ther  |  1   |
+| Sal  |  1   | thim  |  3   |
+|  Si  |  1   | thin  |  2   |
+| Tel  |  1   | this  |  1   |
+| Tha  |  1   | thorm |  1   |
+| The  |  2   | yar   |  1   |
+|  Ve  |  2   | zbeth |  1   |
+|  Vi  |  1   |       |      |
 | Wel  |  1   |       |      |
 |  Ya  |  1   |       |      |
 
-That's 39 unique initials and 37 unique finals, with some duplicates. No syllable is used in more than 3 different names, so it is difficult to tell which elements are or are not more standardized or popular--the sample is simply not large enough--but we can start to make some inferences about the general shapes of Baseline personal names--keeping in mind that a person *can* choose essentially anything as their name, and we are here looking only at the subset of 2-syllable names, which could be considered "socially unmarked".
+That's 41 unique initials and 38 unique finals, with some duplicates. No syllable is used in more than 3 different names, so it is difficult to tell which elements are or are not more standardized or popular--the sample is simply not large enough--but we can start to make some inferences about the general shapes of Baseline personal names--keeping in mind that a person *can* choose essentially anything as their name, and we are here looking only at the subset of 2-syllable names, which could be considered "socially unmarked".
 
 The first thing to note is that initial syllables seem to be more restricted than final syllables, with a general form of (C)V(A|N), but with a preference for open CV syllables.
 
