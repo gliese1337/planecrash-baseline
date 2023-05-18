@@ -20,13 +20,13 @@ and probably-canonical (not confirmed approved by Eliezer):
 
     Altham   Avarris   Dallim    Dalthem
     Dathim   Dekan     Fanthim   Farris
-    Fellim   Firrin    Finnar    Halthis
-    Illtham  Indis     Irris     Kalorm
-    Kerrin   Khemeth   Kurthin   Lethan
-    Mallor   Mirrell   Nerdel    Nettir
-    Pittan   Ranthir   Silan     Telfin
-    Tharrim  Therril   Vellis    Villar
-    Yattel
+    Fellim   Firrin    Finnar    Gedis
+    Halthis  Illtham   Indis     Irris
+    Kalorm   Kerrin    Khemeth   Kurthin
+    Lethan   Mallor    Mirrell   Nerdel
+    Nettir   Pittan    Ranthir   Silan
+    Telfin   Tharrim   Therril   Vellis
+    Villar   Yattel    Gedis
 
 Most names have two syllables; a few (5 in this list) have 3, or maybe 4. "Bahb" is the only one-syllable names, but that is likely not representative of any real name used for a dath ilani person, as it appears in a context where it is clearly meant to be transcription of the English name "Bob", as part of the set "Alis, Bahb, and Karal", standing in for "Alice, Bob, and Carol", the standard placeholder names for participants in a cryptographic protocol. "Bohob" seems to be an alternative adaptation of "Bob" that fits Baseline naming patterns better. In combination with "Bahdhi", though, the orthographic possibility of "Bahb" suggests the existence of ⟨a⟩ and ⟨ah⟩ as separate vowels. If ⟨h⟩ can only occur in onset positions, there would be minimal ambiguity introduced in the Anglicization by adopting that convention.
 
@@ -120,7 +120,7 @@ n - /n/
 
 We interpret ⟨ts⟩ as an affricate on the basis that there are no other word-initial apparent clusters, and that the affricate ⟨ch⟩ is unambiguously attested (so the category of affricates clearly exists in Baseline's inventory).
 
-The lack of /g/ is not typologically odd on its own, but given the fairly robust fairly robust voicing distinction for most plosives and fricatives, we can infer that there should also be \*/g/, \*/ɣ/, \*/ʒ/, \*/d͡z/, and \*/d͡ʒ/, phonemes, even though they happen to be missing from this dataset, on the basis that, having decided that voicing was usefully distinctive for all other obstruents, the in-world engineers of Baseline wouldn't have just left those specific place/manner combinations unused!
+The lack of /g/ is not typologically odd on its own, but given the fairly robust fairly robust voicing distinction for most plosives and fricatives, and the presence of "G" in para-canonical data, we can infer that there should also be \*/g/, \*/ɣ/, \*/ʒ/, \*/d͡z/, and \*/d͡ʒ/, phonemes, even though they happen to be missing from this dataset, on the basis that, having decided that voicing was usefully distinctive for all other obstruents, the in-world engineers of Baseline wouldn't have just left those specific place/manner combinations unused!
 
 Now, let us consider the case of ⟨tsi-imbi⟩ a little more closely. It's the only attested word with a hyphen in it, and one of only two words with consecutive identical vowels if you ignore the hyphen. I infer that this is to maximize the ease of syllable segmentation, and that the hyphen should in fact represent an additional marginal glottal stop (/ʔ/) phoneme (such as shows up in the English "uh-oh"), which shows up wherever vowels would otherwise be in hiatus. That also allows to resolve any possible ambiguity in the usage of ⟨ah⟩ to transcribe the low-back vowel. Something like ⟨bahob⟩ (a minimal change from the attested ⟨Bohob⟩) would have to be read as /bæ.hob/, while /baob/ would be phonetically [ba.ʔ.ob], with extra-metrical /ʔ/, and transcribed as ⟨bah-ob⟩--and /ba.hob/ would be ⟨bahhob⟩. The hyphen can also be used in Anglicization to break disambiguate Ch digraphs from C.h sequences across syllable boundaries; e.g., /a.θa/ would be written ⟨atha⟩, /aθ.ha/ would be written ⟨athha⟩, and /at.ha/ would be written ⟨at-ha⟩.
 
@@ -157,12 +157,12 @@ Arranging the chart in this form, however, reveals some more obvious gaps--we wo
 |---------|------|-------|------|------|------|-------|
 |Nasal    |  m   |       |  n   |      |  +ŋ  |       |
 |U. Plos. |  p   |   t̪   |  t͡s  |  t͡ʃ  |   k  |  (ʔ)  |
-|V. Plos. |  b   |   d̪   | *d͡z  | *d͡ʒ  |  *g  |       |
+|V. Plos. |  b   |   d̪   | *d͡z  | *d͡ʒ  |   g  |       |
 |U. Fric. |  f   |   θ   |  s   |  ʃ   |   x  |   h   |
 |V. Fric. |  v   |   ð   |  z   | *ʒ   |  *ɣ  |       |
 |Approx.  |  w   |   l̪   |  r   |  j   |  +ʕ  |       |
 
-in which phonemes marked with * are not attested in the canonical corpus yet, but *should* exist based on analyzing phonological gaps and canonical descriptions of the language as desrcribed above, while phonemes marked with + are not yet attested and may not exist, but would make things more symmetrical if they did. (Note that the IPA symbol for the approximant in the Velar column is actually a pharyngeal approximant, because the true velar approximant is too articulatorily similar to the velar fricative, so the approximant for that column gets pushed around in phonetic space to make more room between phonemes.) The additional phonemes could, for example, be transcribed as ⟨rh⟩ or ⟨q⟩ for /ʕ/ and ⟨ng⟩ for /ŋ/.
+in which phonemes marked with * are not attested in the corpus yet, but *should* exist based on analyzing phonological gaps and canonical descriptions of the language as desrcribed above, while phonemes marked with + are not yet attested and may not exist, but would make things more symmetrical if they did. (Note that the IPA symbol for the approximant in the Velar column is actually a pharyngeal approximant, because the true velar approximant is too articulatorily similar to the velar fricative, so the approximant for that column gets pushed around in phonetic space to make more room between phonemes.) The additional phonemes could, for example, be transcribed as ⟨rh⟩ or ⟨q⟩ for /ʕ/ and ⟨ng⟩ for /ŋ/.
 
 The Anglicization is slightly complicated by transcribing /k/ as ⟨c⟩ instead of ⟨k⟩ when it precedes ⟨o⟩, and /j/ and ⟨i⟩ instead of ⟨y⟩ when it is between two vowels, or when it is a coda for ⟨a⟩.
 
@@ -235,34 +235,35 @@ Based on maximum-onset parsing with the permissive syllable structure, the attes
 | Fan  |  1   | lorm  |  2   |
 |  Fe  |  1   | meth  |  1   |
 |  Fi  |  2   | nar   |  1   |
-| Hal  |  1   | ral   |  1   |
-|  He  |  1   | rel   |  2   |
-|  I   |  1   | rez   |  1   |
-|  In  |  1   | rim   |  1   |
-|  Ka  |  2   | rin   |  4   |
-|  Ke  |  1   | ris   |  2   |
-| Kel  |  1   | run   |  1   |
-| Khe  |  1   | shorm |  1   |
-|  Le  |  1   | shre  |  1   |
-| Lim  |  1   | tan   |  1   |
-|  Ma  |  1   | tel   |  1   |
-|  Me  |  1   | ter   |  1   |
-|  Mi  |  1   | thal  |  1   |
-|  Ne  |  1   | tham  |  3   |
-| Ner  |  1   | them  |  1   |
-|  Pi  |  1   | than  |  1   |
-| Ran  |  2   | ther  |  1   |
-| Sal  |  1   | thim  |  3   |
-|  Si  |  1   | thin  |  2   |
-| Tel  |  1   | this  |  1   |
-| Tha  |  1   | thorm |  1   |
-| The  |  2   | yar   |  1   |
-|  Ve  |  2   | zbeth |  1   |
+|  Ge  |  1   | ral   |  1   |
+| Hal  |  1   | rel   |  2   |
+|  He  |  1   | rez   |  1   |
+|  I   |  1   | rim   |  1   |
+|  In  |  1   | rin   |  4   |
+|  Ka  |  2   | ris   |  2   |
+|  Ke  |  1   | run   |  1   |
+| Kel  |  1   | shorm |  1   |
+| Khe  |  1   | shre  |  1   |
+|  Le  |  1   | tan   |  1   |
+| Lim  |  1   | tel   |  1   |
+|  Ma  |  1   | ter   |  1   |
+|  Me  |  1   | thal  |  1   |
+|  Mi  |  1   | tham  |  3   |
+|  Ne  |  1   | them  |  1   |
+| Ner  |  1   | than  |  1   |
+|  Pi  |  1   | ther  |  1   |
+| Ran  |  2   | thim  |  3   |
+| Sal  |  1   | thin  |  2   |
+|  Si  |  1   | this  |  1   |
+| Tel  |  1   | thorm |  1   |
+| Tha  |  1   | yar   |  1   |
+| The  |  2   | zbeth |  1   |
+|  Ve  |  2   |       |      |
 |  Vi  |  1   |       |      |
 | Wel  |  1   |       |      |
 |  Ya  |  1   |       |      |
 
-That's 41 unique initials and 38 unique finals, with some duplicates. No syllable is used in more than 3 different names, so it is difficult to tell which elements are or are not more standardized or popular--the sample is simply not large enough--but we can start to make some inferences about the general shapes of Baseline personal names--keeping in mind that a person *can* choose essentially anything as their name, and we are here looking only at the subset of 2-syllable names, which could be considered "socially unmarked".
+That's 42 unique initials and 38 unique finals, with some duplicates. No syllable is used in more than 3 different names, so it is difficult to tell which elements are or are not more standardized or popular--the sample is simply not large enough--but we can start to make some inferences about the general shapes of Baseline personal names--keeping in mind that a person *can* choose essentially anything as their name, and we are here looking only at the subset of 2-syllable names, which could be considered "socially unmarked".
 
 The first thing to note is that initial syllables seem to be more restricted than final syllables, with a general form of (C)V(A|N), but with a preference for open CV syllables.
 
@@ -303,7 +304,7 @@ Based on characters' commenting on how many syllables are required to say someth
 Possible Syllables
 ------------------
 
-Making the default assumption that the maximum onset principle for syllabification applies, the attested syllables are as follows:
+Making the default assumption that the maximum onset principle for syllabification applies, the canonically-attested syllables are as follows:
 
 a ash ath  
 i im
@@ -332,14 +333,18 @@ The possible syllables are a much larger set. However, depending on morphologica
 Letter Names
 ============
 
-We have one plausible example of a letter name in "Thi". This can be extrapolated in a few ways--perhaps all consonant letter names are just an open syllable with that consonant onset and /i/? But that does not come close to maximizing distinctiveness! Instead, vowels are assigned to anti-agree with the frequency spectrum of each consonant, and plosives are further distinguished from fricatives by repeating the named plosive as a coda while fricative names are open syllables. Furthermore, within each column-group of two plosives and two fricatives, all four names will use different vowels, and the confusable fricative sets f-th-s and v-dh-zh each use three distinct vowels as well. The six unpaired consonantshave fewer restrictions are named in a more ad-hoc manner.
+How many letters actually are there? Straightforwardly, we could have one per phoneme, resulting in an alphabet 35 letters long, if we include all of the predicted-but-not-canonically-attested phonemes. That is not unreasonable--the Russian alphabet has 33 letters--but it does start to crowd the space of possible letters that can be made with "a small number of LED lines". We could use many fewer symbols if we went with a featural alphabet, where every phoneme consists of multiple characters--but that makes written words much longer. A simple compromise--creating a letter that indicates voicing for phonemes that come in voiced-unvoiced pairs--gets us, entirely coincidentally, an alphabet of 26 characters, without increasing average word length very much--especially since voiceless consonants outnumber their voiced counterparts in the current canonical corpus by a large margin, so the voicing letter doesn't need to be used very often. So, we will need to come up with 26 letter names.
 
-|            | Labial  | Dental  |  Alveolar   |  Palatal   |  Velar   | Glottal |
-|------------|---------|---------|-------------|------------|----------|---------|
-|Nasal       |   mem   |         |     nin     |            |          |         |
-|Plosive     | pap bob | tet dud | tsats dzodz | chuch  jaj | kik gog  |         |
-|Fricative   | fu  ve  | thi dha |  sah   zu   | sho    zhe | khu ghah |   ha    |
-|Approximant |         |         |     rar     |    yai     |    lo    |         |
+We have one plausible example of a letter name in "Thi"--which conveniently complies with the idea that voiceless letters will be basic. This can be extrapolated in a few ways--perhaps all consonant letter names are just an open syllable with that consonant onset and /i/? But that does not come close to maximizing distinctiveness! Instead, vowels are assigned to contrast with the frequency spectrum of each consonant, as much as possible while maintaining distinctions within a row or column, and plosives are further distinguished from fricatives by repeating the named plosive as a coda while fricative names are open syllables.
+
+|            | Labial | Dental | Alveolar | Palatal |  Velar   | Glottal |
+|------------|--------|--------|----------|---------|----------|---------|
+|Nasal       |  mem   |        |   nin    |         |  ngang   |         |
+|Plosive     |  pap   |  tet   |  tsats   |  chuch  |   kik    |         |
+|Fricative   |  fu    |  thi   |   sah    |   sho   |   khu    |   ha    |
+|Approximant |  wiw   |  lal   |   ror    |   yui   |  rherh   |         |
+
+The voicing letter can be assigned the name "vai"--the only letter name with a voiced fricative onset, befitting its function, and with a fully distinct coda so it cannot be confused with "fu".
 
 Currently, we have no examples of vowel letter names, but a similar system would make sense. To maximize contrast between vowel names, we ensure that each vowel is repeated twice, in a basic VCV pattern with a unique consonant associated with each vowel name selected to ensure that no syllables of a vowel name are identical with consonant names and that the chosen consonants agree with the named vowel in backness. To this stem, we add onset consonants to ensure that letter names can fit into the core language with unambiguous utterance syllabification, leading to this preliminary proposal:
 
@@ -366,24 +371,25 @@ The first person singular pronoun is ⟨mi⟩.
 
 The second person singular pronoun is ⟨ti⟩. The plural is ⟨vi⟩.
 
-For third person, Baseline uses a single series of personal and demonstrative pronouns. These use a common rime of ⟨-em⟩ for singular and ⟨-erm⟩ for plural, with onset consonants varying to agree alliteratively with the onset of the antecedent. There are twelve total agreement forms, as follows:
+For third person, Baseline uses a single series of personal and demonstrative pronouns. These use a common rime of ⟨-em⟩ for singular and ⟨-erm⟩ for plural, with onset consonants varying to agree alliteratively with the onset of the antecedent. There are thirteen total agreement forms, as follows:
 
 |  Form  | Agr. Classes |
 |--------|--------------|
 | ⟨pem⟩  |    p-, b-    |
-| ⟨tem⟩  |  t-, d-, r-  | 
-| ⟨kem⟩  |    k-, g-    |
+| ⟨dem⟩  |  t-, d-, r-  | 
+| ⟨kem⟩  |  k-, g-, ʕ-  |
 | ⟨hem⟩  |    V-, h-    |
-| ⟨nem⟩  |    m-, n-    | 
-| ⟨vem⟩  |    f-, v-    |
+| ⟨nem⟩  |  m-, n-, ŋ-  | 
+| ⟨vem⟩  |  f-, v-, w-  |
 | ⟨dhem⟩ |    θ-, ð-    |
 | ⟨zem⟩  |    s-, z-    |
 | ⟨zhem⟩ |    ʃ-, ʒ-    |
 | ⟨tsem⟩ |   t͡s-, d͡z-   |
 | ⟨chem⟩ |   t͡ʃ-, d͡ʒ-   |
+| ⟨khem⟩ |    x-, ɣ-    |
 | ⟨yem⟩  |    j-, l-    |
 
-These forms are always endophoric; that is, that refer to some other phrase in the ongoing discourse. When used in the determiner slot of an argument phrase, the noun complement serves to further restrict what the whole determiner phrase may be referring to, giving greater specificity than the pronoun on its own. Alternately, this can be interpreted as the determiner restricting the noun to co-refer to something else in the discourse.
+These forms are always endophoric; that is, they refer to some other phrase in the ongoing discourse. When used in the determiner slot of an argument phrase, the noun complement serves to further restrict what the whole determiner phrase may be referring to, giving greater specificity than the pronoun on its own. Alternately, this can be interpreted as the determiner restricting the noun to co-refer to something else in the discourse.
 
 The prefix ⟨he-⟩ derives *exophoric* demonstratives--pronouns which rever to something in the world external to the discourse, and bring that entity into the discourse. If used with a noun, the demonstrative will always agree with the head of the noun phrase; when used in isolation, however, an exophoric demonstrative may not have any formal linguistic expression to agree with (since the thing it refers to is by definition not yet part of the discourse); for example, when asking "What is that?" In such cases, ⟨heyem⟩ serves as the default, generic demonstrative.
 
@@ -395,15 +401,15 @@ First person plurals are formed by compounding the first person singular with se
 * ⟨mivi⟩ - me and all of you
 * ⟨miyem⟩ - me and him/her/it, but not you
 * ⟨miyerm⟩ - me and them, but not you.
-* ⟨mitem⟩ - the two of us and he/she/it
-* ⟨miterm⟩ - the two of us and them.
+* ⟨midem⟩ - the two of us and he/she/it
+* ⟨miderm⟩ - the two of us and them.
 * ⟨mivem⟩ - me, all of you, and he/she/it
 * ⟨miverm⟩ - me, all of you, and them.
 
 Interrogative Pronouns
 ======================
 
-The basic interrogative pronoun is ⟨ha⟩, translatable as "who" or "what" in isolation and "which" when used with a noun. More specific forms can be derived by prefixing this particle to the demnstratives, like ⟨he-⟩ is used to derive exophors. There are, additionally, interrogative attributives ⟨sa⟩ ("which of the...?") and ⟨sar⟩ ("which one in an ordinal series?").
+The basic interrogative pronoun is ⟨hah⟩, translatable as "who" or "what" in isolation and "which" when used with a noun. More specific forms can be derived by prefixing this particle to the demnstratives, like ⟨he-⟩ is used to derive exophors. There are, additionally, interrogative attributives ⟨sah⟩ ("which of the...?") and ⟨sar⟩ ("which one in an ordinal series?").
 
 Numerals
 ========
